@@ -14,7 +14,7 @@ const AddArticle = () => {
         
         const send=async()=>{
            //console.log("imagsdsd",img);
-            const res=await axios.post("/api/posts",{
+            const res=await axios.post("https://compendium-serverside.herokuapp.com/api/posts",{
                 "title":title,
                 "content":con,
                 "writtenBy":wb,
