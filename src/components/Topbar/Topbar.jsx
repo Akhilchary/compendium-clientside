@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
-import {FaBars,FaTimes} from 'react-icons/fa';
+// import {FaBars,FaTimes} from 'react-icons/fa';
 import searchIcon from '../../images/searchIcon.svg';
 
 import "./Topbar.css";
@@ -8,7 +8,7 @@ import "./Topbar.css";
 // import searchIcon from "../../images/searchIcon.svg";
 // import logo from "../../images/logo.png";
 function Topbar(){
-    const [click, setClick]= useState(false);
+    // const [click, setClick]= useState(false);
     // const handleClick = () => setClick(!click);
 
     return(
@@ -21,7 +21,7 @@ function Topbar(){
                 {/* <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
                 </div> */}
-                <div className={click ? 'nav-menu active' : 'nav-menu'}>
+                <div className='nav-menu active'>
                     <p className='nav-item'><Link to="/" className='nav-links'>Home </Link> </p>
                     <p className='nav-item'><Link to="/aboutus" className='nav-links'> About Us</Link> </p>
                     <p className='nav-item'><Link to="/articleslist" className='nav-links'>Articles </Link> </p>

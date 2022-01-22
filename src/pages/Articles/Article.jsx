@@ -13,8 +13,8 @@ function Article(){
     const path=pathname;
     console.log(pathname+" pathname");
     const [art,setArt]=useState([]);
-    let [sty,setSty]=useState({});
-    let [styw,setStyw]=useState({});
+    // let [sty,setSty]=useState({});
+    // let [styw,setStyw]=useState({});
   
     useEffect(()=>{
         const fetchPost=async()=>{
@@ -22,20 +22,16 @@ function Article(){
             
             setArt(res.data);
             console.log(art,"length",res.data.content.length);
-            if(res.data.content.length !==0){
-                const len=res.data.content.length;
-                // setSty({top:(len/20)+'px'})
-                // setStyw({top:len/65+'px'})
-            }
-        };
-
-        
-            console.log("sdfjkl",sty);
-            
+            // if(res.data.content.length !==0){
+            //     const len=res.data.content.length;
+            //     // setSty({top:(len/20)+'px'})
+            //     // setStyw({top:len/65+'px'})
+            // }
+        };            
 
         fetchPost();
         
-    },[path]);
+    },[path,art]);
     
     
     return (
@@ -55,8 +51,8 @@ function Article(){
                     <h1 className="content">{ art.content }</h1>
                 </div>
                 <div className="writtenby-div">
-                    <h1 className="writtenby" style={styw} >Written by</h1>
-                    <h1 className="writtenby" style={styw} >{ art.writtenBy }</h1>
+                    <h1 className="writtenby" >Written by</h1>
+                    <h1 className="writtenby" >{ art.writtenBy }</h1>
                 </div>
             </div>
             
@@ -66,11 +62,11 @@ function Article(){
 
         </div>
 
-        <div className="article-footer-ar" style={sty} >
+        <div className="article-footer-ar"  >
             
             <p className="soc-p-ar">Social.</p>
             <img className="linkdin-ic-ar" src={linkedIcon} alt="" />
-            <img className="insta-ic-ar" src={instaIcon} />
+            <img className="insta-ic-ar" src={instaIcon} alt=""  />
 
             <div className="footer-nav-ar">
                 <h3>Navigate</h3>

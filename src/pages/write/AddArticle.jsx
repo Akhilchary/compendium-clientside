@@ -29,9 +29,9 @@ const AddArticle = () => {
     }
    
     const cImg=(im)=>{
-        let bs64='';
+        // let bs64='';
         getBase64(im,(result)=>{
-            bs64=result;
+            // bs64=result;
         })
        
     }

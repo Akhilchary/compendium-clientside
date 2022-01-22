@@ -9,7 +9,7 @@ const ArticlesList =({articles}) => {
         <>
             {articles.map((article,index)=> (
                 <div className="article-block" key={index}  >
-                    <img className="image" src={article.img} />
+                    <img className="image" src={article.img}  alt="" />
 
                     <div className="articlediv-title" >
                     <Link className="article-title" to={`/${article._id}`} >{article.title}</Link>

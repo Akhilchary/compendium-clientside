@@ -19,8 +19,8 @@ import Managingdirector from "./pages/Aboutus/managingdirector";
 
 
 function App(){
-  let md5=require("md5");
-const key=md5("compendium");
+  // let md5=require("md5");
+// const key=md5("compendium");
 //console.log(key);
     return (
       

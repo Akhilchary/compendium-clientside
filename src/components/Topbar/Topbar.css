@@ -49,7 +49,7 @@
   justify-content: center;
   list-style: none;
   text-align: center;
-  justify-content: end;
+  /* justify-content: end; */
   position: relative;
   bottom: 135px;
   left: 70px;
