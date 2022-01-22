@@ -10,7 +10,6 @@ import Slider from "./pages/Gallery/Slider";
 import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
 import Article from "./pages/Articles/Article";
-import AddArticle from "./pages/write/AddArticle";
 import Login from "./pages/login/Login";
 import President from "./pages/Aboutus/president";
 import Founder from "./pages/Aboutus/founder";
