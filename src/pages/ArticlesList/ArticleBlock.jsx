@@ -39,9 +39,6 @@ const ArticleBlock = () => {
                 <ArticlesList articles={posts} />
             </div>
         </div>
-      
-       
-
         <Footer />
         </>
     )

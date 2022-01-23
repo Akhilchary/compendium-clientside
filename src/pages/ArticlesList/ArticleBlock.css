@@ -10,6 +10,10 @@
     margin-bottom: 120px;
 }
 
+/* .container-articlelist{
+
+} */
+
 .article-block{
     margin: 10px;
 }
@@ -33,7 +37,7 @@
     margin-left: 100px;
 }
 
-.background-1{
+/* .background-1{
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -44,11 +48,12 @@
     }
 .background-2{
     top: 123vh;
-}
+} */
 
 .articleList{
     position: relative;
-   
+    background: #0E0E0E;
+    height: 170vw;
 }
 
 

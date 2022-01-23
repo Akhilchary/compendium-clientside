@@ -1,5 +1,6 @@
 .body1{
-    background-color: white;
+    height: 84vh;
+    background-color: white!important;
 }
 .longarrow{
     position: absolute;
