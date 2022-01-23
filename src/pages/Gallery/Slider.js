@@ -40,7 +40,7 @@ export default function Slider() {
         
         <div className="gallery">
             <div className="Heading">
-                <h1>Gallery.</h1>
+                <h1>Gallery</h1>
             </div>
             <div className="container-slider">
                 {dataSlider.map((obj, index) => {

@@ -33,7 +33,7 @@ const ArticleBlock = () => {
         <Topbar />
         <div className="articleList">
             
-            <p className="article-name-p">Articles.</p>
+            <p className="article-name-p">Articles</p>
 
             <div className="container container-articlelist" >
                 <ArticlesList articles={posts} />

@@ -64,7 +64,7 @@ function Article(){
 
         <div className="article-footer-ar"  >
             
-            <p className="soc-p-ar">Social.</p>
+            <p className="soc-p-ar">Social</p>
             <img className="linkdin-ic-ar" src={linkedIcon} alt="" />
             <img className="insta-ic-ar" src={instaIcon} alt=""  />
 

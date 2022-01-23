@@ -10,7 +10,7 @@ import TechMahindra from "../../images/Rectangle 68.png";
 function Placementsbody(){
     return(
         <div class="placementsbody">
-            <p className="placements">Placements.</p>
+            <p className="placements">Placements</p>
             <div className="year">2020-2021  </div>
             <div class="sec1">
                 <div className="sec11">
