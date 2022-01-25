@@ -63,7 +63,7 @@ function App(){
               <ArticleBlock />
             </Route>
 
-            <Route path={`/login/bc31fc693c24f4aa0bf13dcf0fbfb1e8`} >
+            <Route path='/login/bc31fc693c24f4aa0bf13dcf0fbfb1e8' >
               <Login />
              </Route>
 
