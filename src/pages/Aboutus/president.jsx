@@ -1,27 +1,29 @@
 import React from "react";
 import Topbar from "../../components/Topbar/Topbar";
-import Presidentpic from "../../images/_DSC0251 1.png";
+import Managingdirectorpic from "../../images/_DSC0341 1.png";
 import "./Aboutus-individual.css";
 import Cross from "../../images/Vector 35.png";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import { Link } from "react-router-dom";
-function Presidentbody(){
+import mailIcon from "../../images/mail.png";
+function Managingdirectorbody(){
     return(
         <div>
-        <div class="Presidentbody">
-           <Link to="/aboutus"><img class="Cross" src={Cross} alt="" /></Link>
-            <img class="Presidentpic" src={Presidentpic} alt="" />
-            <p class="teammembersname">Rahul Sattarapu</p>
-            <p class="presidentname">President</p>
-            <p className="presidentdescription">An achiever, dreamer and fine leader. Introducing to you the new President of The Compendium, Rahul (Sattarapu Rahul). He aims for perfection in all his ventures. An ordinary person with a skill to practise perfection is what he is. Previously, he had served tirelessly as the Vice President of the club. He is one with high spirits and never lets a teammate down. Always a sight for calm and composure, he leads the team with all his heart. He has proved multiple times that nothing is bigger than The Compendium to him. Otherwise, he is just an ordinary student with a weird combination of maturity and kiddish mentality which changes dynamically. He’s a person who knows exactly what he wants and almost always successfully can convey it to the team and get it done. </p>
+        <div class="Managingdirectorbody">
+            <Link to="/aboutus"><img class="Cross" src={Cross} alt="" /></Link>
+            <img class="managingdirectorpic" src={Managingdirectorpic} alt="" />
+            <p class="teammembersname">Sachin Pisipati</p>
+            <p class="managingdirectorname">Managing Director</p>
+            <p className="managingdirectordescription">The Tower, tall and smart. Introducing to you the Managing Director of The Compendium, Sachin Pisipati. When we are doing something in life we should not worry about the result, we should only focus on the process but not on the result, the concentration/focus we put into our work or anything should not be dependent on the result/fruit. This is the simplest way to explain Sachin’s favourite verse from the Bhagavad Gita. He is a strong believer in working hard, no matter what. He is dedicated and very enthusiastic. He is a learner and soon applies in practically. He never lets anyone down and carries us all as one big family. He makes his mark not by words, but by his actions. His hard work speaks volume for himself. Majoring in Mechanical Engineering, he is exploring his interests in the field but his true passion lies in acting. He is an upcoming star with numerous short films already released and a few in the making currently. He is also an active member in TEDx IARE, Eco Crew and NSS IARE. He is also an active member of SAE India and is currently competing, with his team, in AEROTHON ‘21.</p>
         </div>
         <div className="footer-3">
 
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
-            <img className="insta-ic1" src={instaIcon} alt=""  />
-
+            <img className="insta-ic1" src={instaIcon} />
+            <img className="mail-ic1" src={mailIcon} />
+            
             <div className="footer-nav1">
                 <h3>Navigate</h3>
                 <div className="footNav-content1">
@@ -39,12 +41,12 @@ function Presidentbody(){
         </div>
     );
 }
-function President(){
+function Managingdirector(){
     return(
         <div>
             <Topbar />
-            <Presidentbody />
+            <Managingdirectorbody />
         </div>
     );
 }
-export default President;
+export default Managingdirector;
