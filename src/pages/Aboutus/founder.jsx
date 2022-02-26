@@ -6,12 +6,13 @@ import Cross from "../../images/Vector 35.png";
 import { Link } from "react-router-dom";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
+import mailIcon from "../../images/mail.png";
 function Founderbody(){
     return(
         <div>
             <div class="Founderbody">
                 <Link to="/aboutus"><img class="Cross" src={Cross} alt="" /></Link>
-                <img class="Founderpic" src={Founderpic} alt=""   />
+                <img class="Founderpic" src={Founderpic} alt="" />
                 <p class="teammembersname">Anusha Vajha</p>
                 <p class="foundername">Founder</p>
                 <p className="founderdescription">An achiever, dreamer and fine leader. Introducing to you the new President of The Compendium, Rahul (Sattarapu Rahul). He aims for perfection in all his ventures. An ordinary person with a skill to practise perfection is what he is. Previously, he had served tirelessly as the Vice President of the club. He is one with high spirits and never lets a teammate down. Always a sight for calm and composure, he leads the team with all his heart. He has proved multiple times that nothing is bigger than The Compendium to him. Otherwise, he is just an ordinary student with a weird combination of maturity and kiddish mentality which changes dynamically. He’s a person who knows exactly what he wants and almost always successfully can convey it to the team and get it done. </p>
@@ -21,8 +22,9 @@ function Founderbody(){
 
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
-            <img className="insta-ic1" src={instaIcon} alt=""  />
-
+            <img className="insta-ic1" src={instaIcon} />
+            <img className="mail-ic1" src={mailIcon} />
+            
             <div className="footer-nav1">
                 <h3>Navigate</h3>
                 <div className="footNav-content1">
