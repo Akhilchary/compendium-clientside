@@ -3,7 +3,6 @@
     background-color: #0E0E0E;
     width: 100%;
     height: 120%;
-    font-family: rubik;
     margin-bottom: 100px;
 }
 .about{
@@ -19,7 +18,7 @@
 }
 .logo{
     position: absolute;
-    top:25%;
+    top: 27%;
     left: 10%;
 }
 .about-text1{
@@ -27,7 +26,7 @@
     width: 70%;
     height: 64px;
     left: 25%;
-    top: 30%;
+    top: 32%;
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
@@ -37,7 +36,7 @@
 }
 .about-text2{
     position: relative;
-    width: 844px;
+    width: 700px;
     height: 160px;
     left: 10%;
     top: 50%;
@@ -50,7 +49,7 @@
 }
 .body-2{
     position: absolute;
-    top: 115%;
+    top: 130%;
     width: 100%;
     height: 100%;
     background: #0E0E0E;
@@ -59,8 +58,7 @@
 .team{
     position: absolute;
     left: 45%;
-    margin-top: 7%;
-    
+    margin-top: 4%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -68,10 +66,24 @@
     line-height: 47px;
     color: #FFFFFF;
 }
+.hr2{
+    height:5px;
+    color:white;
+    width:35%;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+}
 .Founder{
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 20%;
+    background-color: #F7CA02;
+}
+.Cofounder{
+    position: absolute;
+    top: 30%;
+    left: 60%;
     background-color: #F7CA02;
 }
 .Creativedirector{
@@ -91,20 +103,19 @@
 }
 .body-3{
     position: absolute;
-    top: 210%;
+    top: 230%;
     width: 100%;
     height: 100%;
     background-color: #0E0E0E;
     
 }
-.lines{
+/* .lines{
     position: absolute;
     top: 35%;
     margin-left: 29%;
-    position: absolute;
     width: 726px;
     height: 245.15px;
-}
+} */
 
 .name{
     color: #E8E833;
@@ -116,17 +127,32 @@
 }
 .foundertextarea{
     position: relative;
-    margin-left: 40%;
+    margin-left: 20%;
     top: 80%;
 }
 .Foundertext{
-    
+    font-size: 25px;
     color: #FFFFFF;
+    margin-top: 5px;
+}
+.cofoundertextarea{
+    position: relative;
+    top: 64.5%;
+    left: 60%;
+    width: 300px;
+    height: 100px;
+}
+.cofoundertext{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 5px;
 }
 .creativedirectortextarea{
     position: relative;
     top: 75%;
     left: 10%;
+    width: 300px;
+    height: 100px;
 }
 .CreativeDirectortext{
     color: #FFFFFF;
@@ -144,12 +170,14 @@
     position: relative;
     left: 68%;
     top: 48%;
+    width: 250px;
+    height: 100px;
 }
 .ManagingDirectortext{
     color: #FFFFFF;
 }
 /* css of separate about us pages */
-.Managingdirectorbody{
+/* .Managingdirectorbody{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -238,13 +266,13 @@
     left: 80%;
     top: 20%;
     
-}
+} */
 .footer-2{
     /* width: 100vw;
     height: 60vh;*/
     background: #0E0E0E;
     position: absolute;
-    top: 300%;
+    top: 317%;
     /*left: 0%;
     bottom: 0%; */
     width: 100%;
