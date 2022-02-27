@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
+// import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Topbar/Topbar";
 import "../Aboutus/Aboutus.css";
 import Logo from "../../images/Logo (1) 2.svg";
@@ -7,8 +7,8 @@ import Founder from "../../images/IMG_6045 1.png";
 import Creativedirector from "../../images/IMG_5936 1.png"; 
 import President from "../../images/_DSC0251 1.png";
 import Managingdirector from "../../images/_DSC0341 1.png";
-import Line from "../../images/Vector 25.png";
-import Lines from "../../images/Group 71.svg";
+// import Line from "../../images/Vector 25.png";
+// import Lines from "../../images/Group 71.svg";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import { Link } from "react-router-dom";
