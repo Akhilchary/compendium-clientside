@@ -92,7 +92,7 @@ function Aboutusbody(){
 function Aboutus(){
     return(
         <div>
-            <Header />
+            {/* <Header /> */}
             <Aboutusbody />
         </div>
     );
