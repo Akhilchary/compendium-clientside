@@ -1,7 +1,9 @@
 import React from "react";
 // import Footer from "../../components/Footer/Footer";
 // import Logo from "../../images/logo.png";
+
 import Header from "../../components/Topbar/Topbar";
+
 // import Footer from "../../components/Footer/Footer"
 import sitting from "../../images/compw 1.svg";
 import vector from "../../images/Vector 18.svg";
