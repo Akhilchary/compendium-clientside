@@ -21,8 +21,8 @@ function Creativedirectorbody(){
 
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
-            <img className="insta-ic1" src={instaIcon} />
-            <img className="mail-ic1" src={mailIcon} />
+            <img className="insta-ic1" src={instaIcon} alt="" />
+            <img className="mail-ic1" src={mailIcon} alt="" />
             
             <div className="footer-nav1">
                 <h3>Navigate</h3>
