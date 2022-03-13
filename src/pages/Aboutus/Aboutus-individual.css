@@ -70,7 +70,7 @@
 .teammembersname{
     position: absolute;
     width: 40%;
-    left: 32%;
+    left: 40%;
     top: 20%;
     font-family: Rubik;
     font-style: normal;
@@ -83,7 +83,7 @@
 .foundername,.managingdirectorname,.presidentname,.creativedirectorname{
     position: absolute;
     width: 40%;
-    left: 32%;
+    left: 40%;
     top: 27%;
     font-family: Karla;
     font-style: normal;
@@ -95,7 +95,7 @@
 .creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription{
     position: absolute;
     width: 50%;
-    left: 32%;
+    left: 40%;
     top: 36%;
     font-family: Karla;
     font-style: normal;
