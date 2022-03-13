@@ -2,7 +2,7 @@ import React from 'react';
 import { useState,useEffect } from 'react';
 import ArticlesList from './ArticlesList';
 import "./ArticleBlock.css";
-import Topbar from '../../components/Topbar/Topbar';
+import Topbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 // import {useLocation} from "react-router";
 import axios from "axios";
