@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Topbar/Topbar";
+import Header from "../../components/Navbar/Navbar";
 import "../Aboutus/Aboutus.css";
 import Logo from "../../images/Logo (1) 2.svg";
 import Founder from "../../images/IMG_6045 1.png";
@@ -71,8 +71,8 @@ function Aboutusbody(){
 
                 <p className="soc-p1">Social.</p>
                 <img className="linkdin-ic1" src={linkedIcon} alt="" />
-                <img className="insta-ic1" src={instaIcon} />
-                <img className="mail-ic1" src={mailIcon} />
+                <img className="insta-ic1" src={instaIcon} alt="" />
+                <img className="mail-ic1" src={mailIcon} alt="" />
 
                 <div className="footer-nav1">
                     <h3>Navigate</h3>
