@@ -1,5 +1,5 @@
 import React from "react";
-import Topbar from "../../components/Topbar/Topbar";
+import Topbar from "../../components/Navbar/Navbar";
 import Founderpic from "../../images/IMG_6045 1.png";
 import "./Aboutus-individual.css";
 import Cross from "../../images/Vector 35.png";
@@ -22,8 +22,8 @@ function Founderbody(){
 
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
-            <img className="insta-ic1" src={instaIcon} />
-            <img className="mail-ic1" src={mailIcon} />
+            <img className="insta-ic1" src={instaIcon} alt="" />
+            <img className="mail-ic1" src={mailIcon} alt="" />
             
             <div className="footer-nav1">
                 <h3>Navigate</h3>
