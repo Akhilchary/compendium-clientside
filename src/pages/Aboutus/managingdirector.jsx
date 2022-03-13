@@ -1,5 +1,5 @@
 import React from "react";
-import Topbar from "../../components/Topbar/Topbar";
+import Topbar from "../../components/Navbar/Navbar";
 import Managingdirectorpic from "../../images/_DSC0341 1.png";
 import "./Aboutus-individual.css";
 import Cross from "../../images/Vector 35.png";
