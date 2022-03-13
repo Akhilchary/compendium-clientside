@@ -2,11 +2,10 @@ import React, {useState} from 'react'
 import './Slider.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
-import Header from "../../components/Topbar/Topbar";
 import Footer from "../../components/Footer/Footer";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
-import Topbar from '../../components/Topbar/Topbar';
+import Topbar from '../../components/Navbar/Navbar';
 import mailIcon from "../../images/mail.png";
 export default function Slider() {
 
@@ -47,11 +46,8 @@ export default function Slider() {
                     return (
                         <div
                         key={obj.id}
-                        className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                        >
-                            <img 
-                            src={process.env.PUBLIC_URL + `/images/img${index + 1}.jpg`} 
-                            />
+                        className={slideIndex === index + 1 ? "slide active-anim" : "slide"}>
+                            <img src={process.env.PUBLIC_URL + `/images/img${index + 1}.jpg`}  alt="" />
                         </div>
                     )
                 })}
@@ -73,8 +69,8 @@ export default function Slider() {
 
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
-            <img className="insta-ic1" src={instaIcon} />
-            <img className="mail-ic1" src={mailIcon} />            
+            <img className="insta-ic1" src={instaIcon} alt="" />
+            <img className="mail-ic1" src={mailIcon} alt="" />            
 
             <div className="footer-nav1">
                 <h3>Navigate</h3>
