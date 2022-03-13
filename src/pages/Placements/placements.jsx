@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/Topbar/Topbar";
+import Header from "../../components/Navbar/Navbar";
 import "./placements.css";
 import Capgemini from "../../images/Capgemini-Logo 1.png";
 import Lti from "../../images/lti-squarelogo-1573121562221 1.png";
