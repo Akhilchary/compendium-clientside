@@ -18,7 +18,7 @@ const ArticleBlock = () => {
             // localStorage.removeItem("allposts");
             // localStorage.setItem("allposts",JSON.stringify(res.data));
             // const allPosts=JSON.parse(localStorage.getItem("allposts"));
-            setPosts(res.data);
+            setPosts(res.data.reverse());
 
             // console.log(allPosts," all posts ");
             // res.data

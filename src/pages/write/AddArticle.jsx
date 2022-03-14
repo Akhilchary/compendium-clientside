@@ -21,9 +21,9 @@ const AddArticle = () => {
                 "dateAdded":date,
                 "img":img
             });
-            console.log("response",res._id);
+            console.log("response",res.data._id);
             const postId=await axios.post("https://compendium-serverside.herokuapp.com/api/postid",{
-                "postid":res._id
+                "postid":res.data._id
             });
             console.log("response",postId);
         }
