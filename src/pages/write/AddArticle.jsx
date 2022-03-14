@@ -21,7 +21,11 @@ const AddArticle = () => {
                 "dateAdded":date,
                 "img":img
             });
-            console.log("response",res);
+            console.log("response",res._id);
+            const postId=await axios.post("https://compendium-serverside.herokuapp.com/api/postid",{
+                "postid":res._id
+            });
+            console.log("response",postId);
         }
         send();
         alert("your article is added ");
@@ -48,19 +52,6 @@ const AddArticle = () => {
         };
     }
    
-    // const changeImg =()=>{
-    //     const c = document.createElement('canvas');
-    //     const img = document.getElementById('img');
-    //     const height = img.naturalHeight;
-    //     const width = img.naturalWidth;
-    //     const ctx = c.getContext('2d');
-    //     ctx.drawImage(img, 0, 0, width, height);
-    //     const base64String = c.toDataURL();
-    //     console.log(base64String);
-    //     setImg(base64String);
-    // }
-
-
     return (
         <>
         <div className="form form12">

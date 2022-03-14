@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Navbar/Navbar";
 import "../Aboutus/Aboutus.css";
 import Logo from "../../images/Logo (1) 2.svg";
