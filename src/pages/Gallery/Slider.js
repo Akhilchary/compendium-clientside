@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import './Slider.css'
 import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
-import Footer from "../../components/Footer/Footer";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import Topbar from '../../components/Navbar/Navbar';
