@@ -212,7 +212,7 @@
 .NewspaperArchives{
     position: absolute;
     color: white;
-    top: 7%;
+    top: 5%;
     left: 10%;
     font-family: Rubik;
     font-style: normal;
@@ -322,7 +322,7 @@
 .Subscribe{
     position: absolute;
     color: white;
-    top: 7%;
+    top: 35%;
     left: 10%;
     font-family: Rubik;
     font-style: normal;
@@ -445,26 +445,31 @@ hr{
     left: 30%;
 }
 .line{
+    display: none;
     position: absolute;
     top: 61%;
     left: 25%;
 }
 .circle1{
+    display: none;
     position: absolute;
     top: 62%;
     left: 25%;
 }
 .circle2{
+    display: none;
     position: absolute;
     top: 62%;
     left: 35%;
 }
 .circle3{
+    display: none;
     position: absolute;
     top: 62%;
     left: 45%;
 }
 .ellipse1{
+    display: none;
     position: absolute;
     top: 59%;
     left:59%;
@@ -575,7 +580,7 @@ hr{
 @media screen and (max-width:450px){
     .sitting{
         position: absolute;
-        top: 0%;
+        top: 6%;
         left: 2%;
         width: 100%;
         height: 30%;
@@ -588,7 +593,7 @@ hr{
         width: 90%;
         height: 3%;
         left: 4%;
-        top: 65%;
+        top: 77%;
     }
     .tagline {
         position: absolute;
@@ -633,17 +638,17 @@ hr{
     }
     .aboutus-content {
         width: 90%;
-        top: 75%;
+        top: 80%;
 
     }
     .findbutton1 {
         position: absolute;
         width: 40%;
         height: 6%;
-        top: 100%;
+        top: 115%;
     }
     .body4{
-        top: 300%;
+        top: 315%;
 
     }
     .NewspaperArchives-content {
@@ -666,11 +671,11 @@ hr{
     }
 
     .eye {
-        top: 90%;
+        top: 97%;
         
     }
     .download{
-        top: 89%;
+        top: 96%;
     }
     .eye{
         margin-left: -50px;
@@ -680,20 +685,20 @@ hr{
         top: 390%;
     }
     .Spotlight{
-        top: -4%;
+        top: 10%;
     }
     .Spotlight-content {
         position: absolute;
         width: 90%;
         height: 146px;
         left: 10%;
-        top: 65%;
+        top: 85%;
     }
     .findbutton2 {
         position: absolute;
         width: 40%;
         height: 5%;
-        top: 85%;
+        top: 115%;
     }
     .vector-18 {
         position: absolute;
@@ -727,7 +732,7 @@ hr{
     .spotlight-img {
         width: 90%;
         height: 600px;
-        top: 10%;
+        top: 20%;
         left: 40%;
     }
     .ellipse {
@@ -741,10 +746,10 @@ hr{
         left: 24%;
     }
     .body6{
-        top: 506%;
+        top: 535%;
     }
     .footer-1{
-        top: 560%;
+        top: 580%;
     }
     .subscribeimage{
         display: none;
@@ -755,7 +760,7 @@ hr{
     .subscribe-content{
         width: 100%;
         height: 30%;
-        top: 30%;
+        top: 60%;
 
     }
     .email{
@@ -766,5 +771,7 @@ hr{
     .arrow2{
         left: 62%;
     }
-
+    .number01{
+        display: none;
+    }
 }

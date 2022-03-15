@@ -15,7 +15,7 @@ import President from "./pages/Aboutus/president";
 import Founder from "./pages/Aboutus/founder";
 import Creativedirector from "./pages/Aboutus/creativedirector";
 import Managingdirector from "./pages/Aboutus/managingdirector";
-
+import AddArticle from "./pages/write/AddArticle";
 
 
 function App(){
@@ -66,15 +66,15 @@ function App(){
             <Route path='/login/bc31fc693c24f4aa0bf13dcf0fbfb1e8' >
               <Login />
              </Route>
+              <Route path="/write">
+               <AddArticle />
+             </Route>
 
             <Route path="/:id" >
                <Article />
             </Route>
 
-             {/* <Route path="/write">
-               <AddArticle />
-             </Route> */}
-
+            
           </Switch>
         </Router>
     );

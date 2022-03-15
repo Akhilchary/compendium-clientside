@@ -1,7 +1,9 @@
 import axios from 'axios';
 import React from 'react';
 import { useState } from 'react';
+// import { useEffect } from 'react/cjs/react.production.min';
 import "./addArticle.css";
+import DeleteArticle from './DeleteArticle';
 
 const AddArticle = () => {
     const [title,setTitle]=useState("");
@@ -21,15 +23,18 @@ const AddArticle = () => {
                 "dateAdded":date,
                 "img":img
             });
-            console.log("response",res.data.title);
-            const postId=await axios.post("https://compendium-serverside.herokuapp.com/api/postid",{
+            // console.log("response",res.data.title);
+            
+            await axios.post("https://compendium-serverside.herokuapp.com/api/postid",{
                 "postid":res.data._id,
                 "posttitle":res.data.title
             });
-            console.log("response postid",postId);
+            // console.log("response postid",postId);
+            alert(res.data.title+" is added");
         }
         send();
-        alert("your article is added ");
+        // alert("your article is added ");
+        // fetids();
         e.preventDefault();
     }
    
@@ -52,7 +57,19 @@ const AddArticle = () => {
             console.log('Error: ', error);
         };
     }
-   
+
+    // let [postsids,setPostsids]=useState([]);
+    // const fetids=async()=>{
+    //     const res= await axios.get("https://compendium-serverside.herokuapp.com/api/postid");
+    //     setPostsids(res.data);
+    // }
+    // if(postsids.length===0){
+    //     fetids();
+    // }
+    
+
+    // console.log(" postids ",postsids);
+
     return (
         <>
         <div className="form form12">
@@ -85,9 +102,16 @@ const AddArticle = () => {
             <button className="btn btn-lg btn-primary" type="submit">submit</button>
                
             </form>
+
+
+            {/* delete articles */}
+            {/*  */}
+            <DeleteArticle  />
+            
+
         </div>
         </>
     )
 }
-
+// postsids={postsids}
 export default AddArticle; 
