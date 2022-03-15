@@ -15,7 +15,7 @@ import President from "./pages/Aboutus/president";
 import Founder from "./pages/Aboutus/founder";
 import Creativedirector from "./pages/Aboutus/creativedirector";
 import Managingdirector from "./pages/Aboutus/managingdirector";
-import AddArticle from "./pages/write/AddArticle";
+// import AddArticle from "./pages/write/AddArticle";
 
 
 function App(){
