@@ -66,9 +66,10 @@ function App(){
             <Route path='/login/bc31fc693c24f4aa0bf13dcf0fbfb1e8' >
               <Login />
              </Route>
-              <Route path="/write">
+
+              {/* <Route path="/write">
                <AddArticle />
-             </Route>
+             </Route> */}
 
             <Route path="/:id" >
                <Article />
