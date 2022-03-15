@@ -23,14 +23,14 @@
 }
 .about-text1{
     position: relative;
-    width: 70%;
+    width: 65%;
     height: 64px;
     left: 25%;
     top: 32%;
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     color: #FFFFFF;
 }
@@ -43,7 +43,7 @@
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
     color: #FFFFFF;
 }
@@ -99,7 +99,8 @@
 .Managingdirector{
     position: absolute;
     top: 25%;
-    right: 10%;
+    right: 12%;
+    width: 20%;
 }
 .body-3{
     position: absolute;
@@ -427,11 +428,6 @@
     .creativedirectortextarea {
         position: relative;
         top: 110%;
-        left: 7%;
-    }
-    .Managingdirector {
-        position: absolute;
-        top: 135%;
         left: 7%;
     }
 
