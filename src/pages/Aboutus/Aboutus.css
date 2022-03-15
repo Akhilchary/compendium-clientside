@@ -170,7 +170,7 @@
 .managingdirectortextarea{
     position: relative;
     left: 68%;
-    top: 48%;
+    top: 38%;
     width: 250px;
     height: 100px;
 }
@@ -358,6 +358,9 @@
 /* mobile design */
 
 @media screen and (max-width:450px) {
+    .about{
+        top: 6%;
+    }
     .social{
         display: none;
     }
@@ -365,16 +368,22 @@
         display: block;
         height: 150px;
         width: 150px;
+        top: 15%;
     }
     .about-text1{
-        width:50vw;
-        left: 55%;
-        top: 22%;
+        width: 100vw;
+        left: 5vw;
+        top: 37%;
+        font-size: 25px;
+        line-height: 27px;
+
     }
     .about-text2{
         width: 95vw;
         left: 5vw;
-        top: 52%;
+        top: 55%;
+        line-height: 30px;
+
     }
     .team{
         left: 30%;
@@ -435,6 +444,13 @@
         position: relative;
         left: 7%;
         top: 155%;
+    }
+    .Managingdirector{
+        position: absolute;
+        top: 144%;
+        right: 3%;
+        width: 90%;
+    
     }
 
     .footer-2{

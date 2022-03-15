@@ -11,7 +11,7 @@ import instaIcon from "../../images/insta-icon.svg";
 function Article(){
     const {pathname}=useLocation();
     const path=pathname;
-    console.log(pathname+" pathname");
+    // console.log(pathname+" pathname");
     const [art,setArt]=useState([]);
     // let [sty,setSty]=useState({});
     // let [styw,setStyw]=useState({});
@@ -21,7 +21,7 @@ function Article(){
             const res=await axios.get("https://compendium-serverside.herokuapp.com/api/posts"+path);
             
             setArt(res.data);
-            console.log(art,"length",res.data.content.length);
+            // console.log(art,"length",res.data.content.length);
             // if(res.data.content.length !==0){
             //     const len=res.data.content.length;
             //     // setSty({top:(len/20)+'px'})

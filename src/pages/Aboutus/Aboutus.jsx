@@ -45,7 +45,7 @@ function Aboutusbody(){
                 <Link to="/cofounder"><img className="Cofounder" src={cofounder} alt="" /></Link>
                 <div className="cofoundertextarea">
                     <p className="cofoundertext">Co-founder</p>
-                    <p className="name">Anusha Vajha</p>
+                    <p className="name">Vennela Manmohan</p>
                 </div>
             </div>
 
