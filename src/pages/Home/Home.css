@@ -176,7 +176,7 @@
     width: 500px;
     height: 146px;
     left: 10%;
-    top: 30%;
+    top: 25%;
     font-family: rubik;
     font-style: normal;
     font-weight: 500;
@@ -222,10 +222,10 @@
 }
 .NewspaperArchives-content{
     position: absolute;
-    width: 500px;
+    width: 800px;
     height: 146px;
     left: 10%;
-    top: 30%;
+    top: 25%;
     font-family: rubik;
     font-style: normal;
     font-weight: 500;
