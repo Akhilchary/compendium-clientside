@@ -198,7 +198,7 @@
     top: 60vh;
     left: 10vw;
 }
-@media screen and (max-width: 1028px)  {
+@media screen and (max-width: 450px)  {
     .Founderbody{
         position: absolute;
         width: 100%;

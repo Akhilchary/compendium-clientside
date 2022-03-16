@@ -170,7 +170,7 @@
 .managingdirectortextarea{
     position: relative;
     left: 68%;
-    top: 48%;
+    top: 38%;
     width: 250px;
     height: 100px;
 }
@@ -357,7 +357,10 @@
 
 /* mobile design */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:450px) {
+    .about{
+        top: 6%;
+    }
     .social{
         display: none;
     }
@@ -365,22 +368,22 @@
         display: block;
         height: 150px;
         width: 150px;
-        position: relative;
-        top: 7%;
-    }
-    .about{
-        position: relative;
-        top: 5%;
+        top: 15%;
     }
     .about-text1{
-        width:80vw;
-        left: 10%;
-        top: 10%;
+        width: 100vw;
+        left: 5vw;
+        top: 37%;
+        font-size: 25px;
+        line-height: 27px;
+
     }
     .about-text2{
-        width: 80vw;
-        left: 10%;
-        top: 40%;
+        width: 95vw;
+        left: 5vw;
+        top: 55%;
+        line-height: 30px;
+
     }
     .team{
         left: 30%;
@@ -453,6 +456,13 @@
         left: 10%;
         top: 127%;
         font-size: 25px;
+    }
+    .Managingdirector{
+        position: absolute;
+        top: 144%;
+        right: 3%;
+        width: 90%;
+    
     }
 
     .footer-2{

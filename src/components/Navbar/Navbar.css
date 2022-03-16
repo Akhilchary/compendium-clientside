@@ -86,7 +86,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 450px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -116,6 +116,7 @@ body{
     display: table;
   }
   .nav-logo{
+    margin-left: 1rem;
     font-size: 1.6rem;
   }
   .nav-icon {

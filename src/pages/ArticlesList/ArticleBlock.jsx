@@ -22,7 +22,7 @@ const ArticleBlock = () => {
 
             // console.log(allPosts," all posts ");
             // res.data
-            console.log(res.data," resdata");
+            // console.log(res.data," resdata");
         }
         
         
