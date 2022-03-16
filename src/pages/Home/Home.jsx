@@ -88,7 +88,7 @@ function Homebody(){
             </div>
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
-                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sed magna malesuada in interdum massa. Odio vel interdum ultrices tellus.</p>
+                <p className="description">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus. </p>
                 {/* <h1 className="body1-subscribe">Subscribe</h1> */}
             </div>
         </div>
@@ -117,14 +117,14 @@ function Homebody(){
             <div className="body3logo">
                 <img src={logo} alt="" />
             </div>
-            <p className="aboutus-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
+            <p className="aboutus-content">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus.</p>
             <button className="findbutton1" type="button">Read More</button>
         </div>
 
 
         <div className="body4">
             <p className="NewspaperArchives" >Newspaper Archives</p>
-            <p className="NewspaperArchives-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
+            <p className="NewspaperArchives-content">Our organization is run by IARE undergraduates. Up to _ students a year are involved in The Compendium, mastering skills such as reporting, journalism, writing, photography, digital production, videography, editing, graphic design and social media management while also learning effective communication and how to manage teams and their own schedules.</p>
             <h1 className="number01">01</h1>
             <img className="line" src={line} alt="" />
             <img className="circle1" src={circle} alt="" />
