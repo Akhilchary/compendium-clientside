@@ -119,17 +119,19 @@
     left: 35%;
     background:#597ECD;
 }
-.forestfire{
+.article1-img{
     width: 80%;
     height: 80%;
     margin: 20px 40px ;
 }
-.forestfiretitle{
+.article1-title{
     margin-left: 40px;
+    font-size: 1rem;
+    width: 70%;
 }
 .article2{
     position: absolute;
-    width: 410px;
+    width: 370px;
     height: 510px;
     top: 28%;
     left: 65%;

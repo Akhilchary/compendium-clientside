@@ -24,14 +24,58 @@ import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import linkedin from "../../images/linkdin-icon-1.png";
 import instagram from "../../images/insta-icon-1.png";
-import forestfire from "../../images/forestfire.jpg";
+// import forestfire from "../../images/forestfire.jpg";
 import mailIcon from "../../images/mail.png";
 import mail from "../../images/mail1.png";
 // import logo from "../../images/logo.png";
 import "./Home.css";
 // import { Link } from 'react-router-dom';
 
+import axios from "axios";
+import {useState,useEffect} from 'react';
+
 function Homebody(){
+    const [ids,setIds]=useState([]);
+    const [art1,setArt1]=useState([])
+    const [art2,setArt2]=useState([])
+    useEffect(()=>{
+        const fetpostid=async()=>{
+        const res = await axios.get("https://compendium-serverside.herokuapp.com/api/postid");
+        // console.log(res.data[res.data.length-1]);
+        setIds(res.data);
+    }
+    fetpostid();
+
+    
+    // .postid ['postid']
+    // console.log(ids);
+    },[ids,art1,art2]);
+
+    useEffect(()=>{
+        if(ids.length!==0){
+        setArt1(ids[ids.length-1]);
+        setArt2(ids[ids.length-2]);
+        // console.log(" art1 art2 ",art1.postid,art2.postid);
+        }
+    },[ids,art1.postid,art2.postid]);
+
+    
+    //for fetching article1 for homepage
+    const [article1,setArticle1]=useState([]);
+    const [article2,setArticle2]=useState([]);
+    useEffect(()=>{
+        const fetpost=async()=>{
+            let res=await axios.get("https://compendium-serverside.herokuapp.com/api/posts/"+art1.postid);
+            setArticle1(res.data);
+            res=await axios.get("https://compendium-serverside.herokuapp.com/api/posts/"+art2.postid);
+            setArticle2(res.data);
+            // console.log("article1 article2 ",article1,article2);
+        }
+        fetpost();
+    },[art1.postid,art2.postid,article1,article2]);
+
+
+
     return(
     <div className="wholebody">
         <div className="body1">
@@ -54,12 +98,14 @@ function Homebody(){
             <button className="findbutton" type="button">Read More</button>
             <div className="twoarticles">
                 <div className="article1">
-                    <img className="forestfire" src={forestfire}  alt="" />
+                    <img className="article1-img" src={article1.img}  alt="" />
                     <div  className="arrow"><img src={arrow} alt="Un available" /></div>
-                    <h3 className="forestfiretitle">Forest Fires</h3>
+                    <h3 className="article1-title">{article1.title}</h3>
                 </div>
                 <div className="article2">
+                    <img className="article1-img" src={article2.img}  alt="" />
                     <div  className="arrow"><img src={arrow} alt="Un available" /></div>
+                    <h3 className="article1-title">{article2.title}</h3>
                 </div>
                 
             </div>
