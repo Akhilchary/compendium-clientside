@@ -357,7 +357,7 @@
 
 /* mobile design */
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
     .social{
         display: none;
     }
@@ -365,23 +365,29 @@
         display: block;
         height: 150px;
         width: 150px;
+        position: relative;
+        top: 7%;
+    }
+    .about{
+        position: relative;
+        top: 5%;
     }
     .about-text1{
-        width:50vw;
-        left: 55%;
-        top: 22%;
+        width:80vw;
+        left: 10%;
+        top: 10%;
     }
     .about-text2{
-        width: 95vw;
-        left: 5vw;
-        top: 52%;
+        width: 80vw;
+        left: 10%;
+        top: 40%;
     }
     .team{
         left: 30%;
         top: 6%;
     }
     .body-2{
-        top: 150%;
+        top: 155%;
     }
 
     .hr2{
@@ -390,55 +396,67 @@
     }
     .Founder{
         top: 24%;
-        left: 7%;
+        left: 10%;
     }
 
     .foundertextarea {
         position: relative;
-        margin-left: 7%;
-        top: 72%;
+        margin-left: 10%;
+        top: 65%;
     }
     .cofoundertextarea {
         position: relative;
-        top: 125%;
-        left: 7%;
+        top: 115%;
+        left: 10%;
     }
     .Cofounder{
 
-        top: 95%;
-        left: 7%;
+        top: 85%;
+        left: 10%;
     }
     .body-3{
-        top: 340%;
+        top: 320%;
     }
     .president {
         position: absolute;
         top: -15%;
-        left: 7%;
+        left: 10%;
+    }
+    .Presidenttext{
+        font-size: 30px;
     }
     .presidenttextarea {
         position: relative;
-        top: 20%;
-        margin-left: 7%;
+        top: 15%;
+        margin-left: 10%;
     }
     .Creativedirector{
-        left: 7%;
-        top: 60%;
+        left: 10%;
+        top: 50%;
     }
     .creativedirectortextarea {
         position: relative;
-        top: 110%;
-        left: 7%;
+        top: 90%;
+        left: 10%;
     }
-
+    .CreativeDirectortext{
+        font-size: 25px;
+    }
+    .Managingdirector{
+        top: 110%;
+        width: 330px;
+        height: 360px;
+        left: 10%;
+    }
     .managingdirectortextarea {
         position: relative;
-        left: 7%;
-        top: 155%;
+        left: 10%;
+        top: 127%;
+        font-size: 25px;
     }
 
     .footer-2{
-        top: 530%;
+        top: 480%;
     }
     
     .footer-2>.insta-ic1 {
