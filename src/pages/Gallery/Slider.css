@@ -68,12 +68,12 @@
   pointer-events: none;
 }
 .prev {
-  top: 85%;
+  top: 95%;
   left: 40%;
   transform: translateY(-60%);
 }
 .next {
-  top: 85%;
+  top: 95%;
   right: 40%;
   transform: translateY(-60%);
 }
