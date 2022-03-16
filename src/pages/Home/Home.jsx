@@ -44,7 +44,7 @@ function Homebody(){
             </div>
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
-                <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sed magna malesuada in interdum massa. Odio vel interdum ultrices tellus.</p>
+                <p className="description">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus. </p>
                 {/* <h1 className="body1-subscribe">Subscribe</h1> */}
             </div>
         </div>
