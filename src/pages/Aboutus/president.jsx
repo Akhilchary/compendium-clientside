@@ -15,7 +15,7 @@ function Managingdirectorbody(){
             <img class="managingdirectorpic" src={Managingdirectorpic} alt="" />
             <p class="teammembersname">Sachin Pisipati</p>
             <p class="managingdirectorname">President</p>
-            <p className="managingdirectordescription">Introducing to you the Managing Director of The Compendium, Sachin Pisipati. He is a strong believer in working hard, no matter what. He is someone who believes in learning even from losses. He never lets anyone down and carries us all as one big family. He makes his mark not by words, but by his actions. His hard work speaks volumes for himself. Majoring in Mechanical Engineering, he is exploring his interests in the field but his true passion lies in acting. He is a cinephile with numerous short films already released and a few in the making. He is also an active member in Eco Crew and NSS IARE, and SAE India and is currently competing, with his team, in AEROTHON ‘21.</p>
+            <p className="managingdirectordescription">Introducing to you the President of The Compendium, Sachin Pisipati. He is a strong believer in working hard, no matter what. He is someone who believes in learning even from losses. He never lets anyone down and carries us all as one big family. He makes his mark not by words, but by his actions. His hard work speaks volumes for himself. Majoring in Mechanical Engineering, he is exploring his interests in the field but his true passion lies in acting. He is a cinephile with numerous short films already released and a few in the making. He is also an active member in Eco Crew and NSS IARE, and SAE India and is currently competing, with his team, in AEROTHON ‘21.</p>
         </div>
         <div className="footer-3">
 
