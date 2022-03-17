@@ -13,8 +13,8 @@ function Cofounderbody(){
             <div class="Cofounderbody">
                 <Link to="/aboutus"><img class="Cross" src={Cross} alt="" /></Link>
                 <img class="Cofounderpic" src={Cofounderpic} alt="" />
-                <p class="teammembersname">Anusha Vajha</p>
-                <p class="foundername">Founder</p>
+                <p class="teammembersname">Vennela Manmohan</p>
+                <p class="foundername">Co founder</p>
                 <p className="founderdescription">An achiever, dreamer and fine leader. Introducing to you the new President of The Compendium, Rahul (Sattarapu Rahul). He aims for perfection in all his ventures. An ordinary person with a skill to practise perfection is what he is. Previously, he had served tirelessly as the Vice President of the club. He is one with high spirits and never lets a teammate down. Always a sight for calm and composure, he leads the team with all his heart. He has proved multiple times that nothing is bigger than The Compendium to him. Otherwise, he is just an ordinary student with a weird combination of maturity and kiddish mentality which changes dynamically. He’s a person who knows exactly what he wants and almost always successfully can convey it to the team and get it done. </p>
             </div>
 
@@ -52,4 +52,4 @@ function Cofounder(){
         </div>
     );
 }
-export default Founder;
+export default Cofounder;

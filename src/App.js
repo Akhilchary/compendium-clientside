@@ -15,6 +15,7 @@ import President from "./pages/Aboutus/president";
 import Founder from "./pages/Aboutus/founder";
 import Creativedirector from "./pages/Aboutus/creativedirector";
 import Managingdirector from "./pages/Aboutus/managingdirector";
+import Cofounder from "./pages/Aboutus/cofounder";
 // import AddArticle from "./pages/write/AddArticle";
 
 
@@ -53,6 +54,10 @@ function App(){
 
             <Route path='/founder'>
              <Founder />
+            </Route>
+
+            <Route path='/cofounder'>
+             <Cofounder />
             </Route>
 
             <Route path='/gallery'>
