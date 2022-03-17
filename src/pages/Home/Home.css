@@ -158,8 +158,8 @@
     position: absolute;
     top: 20%;
     left: 65%;
-    width: 300px;
-    height: 300px;
+    width: 22vh;
+    height: 47vh;
 }
 .aboutus{
     position: absolute;
@@ -268,7 +268,7 @@
     left: 0%;
     top: 370%;
     width: 100%;
-    height: 120%;
+    height: 80%;
     background-color: #0E0E0E;
     padding-top: 200px;
 }
@@ -579,7 +579,7 @@ hr{
 
 /* mobile view  */
 
-@media screen and (max-width:450px){
+@media screen and (max-width:600px){
     .sitting{
         position: absolute;
         top: 6%;
@@ -635,26 +635,29 @@ hr{
     }
     .body3logo img {
         position: absolute;
-        top: 30%;
-        left: 13%;
+        top: 25%;
+        left: 10%;
+        height: 22vh;
+
     }
     .aboutus-content {
-        width: 90%;
-        top: 80%;
+        width: 85%;
+        top: 60%;
 
     }
     .findbutton1 {
         position: absolute;
         width: 40%;
         height: 6%;
-        top: 115%;
+        top: 123%;
     }
     .body4{
-        top: 315%;
+        top: 330%;
 
     }
     .NewspaperArchives-content {
         width: 90%;
+        top: 30%;
     }
     .line{
         left: 11%;
@@ -673,36 +676,37 @@ hr{
     }
 
     .eye {
-        top: 97%;
+        top: 170%;
         
     }
     .download{
-        top: 96%;
+        top: 169%;
     }
     .eye{
         margin-left: -50px;
     }
 
     .body5{
-        top: 390%;
+        top: 465%;
     }
     .Spotlight{
-        top: 10%;
+        top: 5%;
     }
     .Spotlight-content {
         position: absolute;
         width: 90%;
-        height: 146px;
+        height: 23vh;
         left: 10%;
-        top: 85%;
+        top: 115%;
     }
     .findbutton2 {
         position: absolute;
         width: 40%;
-        height: 5%;
-        top: 115%;
+        height: 8%;
+        top: 150%;
     }
     .vector-18 {
+        display:none;
         position: absolute;
         left: -34%;
         z-index: -1;
@@ -712,46 +716,54 @@ hr{
         background: none;
     }
     .spotlight-img1{
-        width: 165px;
-        height: 220px;
-        left: -34%;
+        width: 39vw;
+        height: 26vh;
+        left: -20%;
     }
     .rectangle27 , .rectangle28, .rectangle29{
-        height: 216px;
-        width: 175px;
+        height: 25vh;
+        position: relative;
+        left: -3vw;
+        width: 46vw;
     }
     .spotlight-img2{
-        left: -34%;
-        width: 165px;
-        height: 220px;
+        left: -20%;
+        width: 39vw;
+        height: 26vh;
     }
     .spotlight-img3{
-        left: 13%;
-        width: 172px;
-        height: 224px;
+        left: 30%;
+        width: 45vw;
+        height: 26vh;
         top: 14%;
     }
     .spotlight-img {
-        width: 90%;
-        height: 600px;
-        top: 20%;
-        left: 40%;
+        width: 80%;
+        height: 35vh;
+        top: 45%;
+        left: 20%;
     }
     .ellipse {
+        display: none;
         position: absolute;
         top: 55%;
         left: 19%;
     }
     .vector-23 {
+        display: none;
         position: absolute;
         top: 57%;
         left: 24%;
     }
+    .firstedition {
+        top: 155%;
+    }
     .body6{
+        display: none;
         top: 535%;
     }
     .footer-1{
-        top: 580%;
+        top: 610%;
     }
     .subscribeimage{
         display: none;

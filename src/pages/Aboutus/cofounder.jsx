@@ -1,6 +1,6 @@
 import React from "react";
 import Topbar from "../../components/Navbar/Navbar";
-import Cofounderpic from "../../images/IMG_6045 1.png";
+import Cofounderpic from "../../images/cofounder1.png";
 import "./Aboutus-individual.css";
 import Cross from "../../images/Vector 35.png";
 import { Link } from "react-router-dom";
