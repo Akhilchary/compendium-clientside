@@ -1,5 +1,5 @@
 .body1{
-    background-color: white;
+    background-color: white !important;
 }
 .longarrow{
     position: absolute;
@@ -437,12 +437,12 @@ hr{
     right: 16%;
 }
 .eye{
-    position: absolute;
+    position: relative;
     top: 81%;
     left: 25%;
 }
 .download{
-    position: absolute;
+    position: relative;
     top: 80%;
     left: 30%;
 }
@@ -580,8 +580,13 @@ hr{
 /* mobile view  */
 
 @media screen and (max-width:600px){
+    .body1{
+        height: fit-content;
+
+    }
+
     .sitting{
-        position: absolute;
+        position: relative;
         top: 6%;
         left: 2%;
         width: 100%;
@@ -591,31 +596,33 @@ hr{
         display: none;
     }
     .description {
-        position: absolute;
+        position: relative;
         width: 90%;
         height: 3%;
         left: 4%;
         top: 77%;
     }
     .tagline {
-        position: absolute;
+        position: relative;
         width: 90%;
         height: 5%;
         left: 4%;
         top: 40%;
     }
     .body2{
-        top: 95%;
+        position: relative;
+        margin-top: 80px;
     }
     .article2{
         display: none;
     }
     .articles{
+        position: relative;
         top: 7%;
         left: 7%;
     }
     .article1 {
-        position: absolute;
+        position: relative;
         width: 85%;
         height: 40%;
         top: 20%;
@@ -625,22 +632,24 @@ hr{
     .findbutton {
         position: absolute;
         width: 40%;
-        height: 5%;
-        top: 70%;
+        height: 10%;
+        top: 110%;
         left: 7%;
     }
     .body3 {
-        top: 190%;
+        position: relative;
+        margin-top: 100px;
 
     }
     .body3logo img {
-        position: absolute;
-        top: 25%;
+        position: relative;
         left: 10%;
         height: 22vh;
+        margin-top: 110px;
 
     }
     .aboutus-content {
+        position: relative;
         width: 85%;
         top: 60%;
 
@@ -648,14 +657,19 @@ hr{
     .findbutton1 {
         position: absolute;
         width: 40%;
-        height: 6%;
+        height: 10%;
         top: 123%;
     }
     .body4{
-        top: 330%;
+        position: relative;
+        margin-top: 180px;
 
     }
+    .NewspaperArchives{
+        position: relative;
+    }
     .NewspaperArchives-content {
+        position: relative;
         width: 90%;
         top: 30%;
     }
@@ -687,7 +701,8 @@ hr{
     }
 
     .body5{
-        top: 465%;
+        position: relative;
+        margin-top: 65px;
     }
     .Spotlight{
         top: 5%;
@@ -712,9 +727,6 @@ hr{
         z-index: -1;
         width: 66%;
     }
-    .spotlight-img{
-        background: none;
-    }
     .spotlight-img1{
         width: 39vw;
         height: 26vh;
@@ -738,6 +750,7 @@ hr{
         top: 14%;
     }
     .spotlight-img {
+        position: relative;
         width: 80%;
         height: 35vh;
         top: 45%;
@@ -756,14 +769,21 @@ hr{
         left: 24%;
     }
     .firstedition {
-        top: 155%;
+        position: relative;
+        margin-top: 220px;
     }
+    
     .body6{
         display: none;
         top: 535%;
     }
     .footer-1{
-        top: 610%;
+        position: relative;
+        margin-top: 310px;
+        height: fit-content;
+    }
+    .footer-nav1{
+        width: fit-content;
     }
     .subscribeimage{
         display: none;
