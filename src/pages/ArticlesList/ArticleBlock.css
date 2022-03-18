@@ -53,7 +53,7 @@
 .articleList{
     position: relative;
     background: #0E0E0E;
-    height: 170vw;
+    height: fit-content;
 }
 
 
