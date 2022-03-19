@@ -50,11 +50,6 @@ function Aboutusbody(){
             </div>
 
             <div className="body-3">
-                <Link to="/creativedirector"><img class="Creativedirector" src={Creativedirector} alt="" /></Link>
-                <div className="creativedirectortextarea">
-                    <p className="CreativeDirectortext">Creative Director</p>
-                    <p className="name">Sharwann Solanki</p>
-                </div>
                 <Link to="/president"><img className="president" src={President} alt="" /></Link>
                 <div className="presidenttextarea">
                     <p className="Presidenttext">President</p>
@@ -65,27 +60,36 @@ function Aboutusbody(){
                     <p className="ManagingDirectortext">Managing Director</p>
                     <p className="name">Jacob Alex</p>
                 </div>
+                <Link to="/creativedirector"><img class="Creativedirector" src={Creativedirector} alt="" /></Link>
+                <div className="creativedirectortextarea">
+                    <p className="CreativeDirectortext">Creative Director</p>
+                    <p className="name">Sharwann Solanki</p>
+                </div>
             </div>
 
-            <div className="footer-2">
+            <div className="footer-A">
 
-                <p className="soc-p1">Social.</p>
-                <img className="linkdin-ic1" src={linkedIcon} alt="" />
-                <img className="insta-ic1" src={instaIcon} alt="" />
-                <img className="mail-ic1" src={mailIcon} alt="" />
-
-                <div className="footer-nav1">
+                <p className="soc-p-art-H">Social.</p>
+                {/* <Link ><img className="linkdin-ic-H" src={linkedIcon} alt="" /></Link>
+                <Link><img className="insta-ic-H" src={instaIcon} alt=""  /></Link>
+                <Link><img className="mail-ic-H" src={mailIcon} alt=""  /></Link> */}
+                <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="linkdin-ic-H" src={linkedIcon} alt="" /></a>
+                <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="insta-ic-H" src={instaIcon} alt=""  /></a>
+                <Link><img className="mail-ic-H" src={mailIcon} alt=""  /></Link>
+            
+                <div className="footer-nav-H">
                     <h3>Navigate</h3>
-                    <div className="footNav-content1">
-                        <p>About us</p>
-                        <p>Articles</p>
-                        <p>Gallery</p>
-                        <p>Spotlight</p>
-                        <p>Placements</p>
+                    <div className="footNav-content-H">
+                        <Link to={'/aboutus'}><p>About us</p></Link>
+                        <Link to={'articleslist'}><p>Articles</p></Link>
+                        <Link to={'/gallery'}><p>Gallery</p></Link>
+                        <Link to={'/gallery'}><p>Spotlight</p></Link>
+                        <Link to={'/placements'}><p>Placements</p></Link>
+    
                     </div>
                 </div>
-                <p className="copyright">&copy;2021 TheCompendium  </p>
-            </div> 
+                <p className="copyright-H">&copy;2021 TheCompendium  </p>
+            </div>
         </div>
     );
 }
