@@ -481,19 +481,23 @@ hr{
     top: 61%;
     left: 60%;
 }
-.footer-1{
-    background: #0E0E0E;
-    position: absolute;
-    top: 550%;
+
+
+  /* homepage footer */
+  .footer-H{
     width: 100%;
-    height: 65%;
+    height: 30vw;
+    position: absolute;
+    background: #0E0E0E;
+    top: 570vh;
+
 }
 
-.soc-p1{
-    
-    position: absolute;
-    top: 20%;
-    left: 20%;
+
+.soc-p-art-H{
+    position: relative;
+    top: 6vh;
+    left: 15vw;
     font-family: rubik;
     font-style: normal;
     font-weight: bold;
@@ -502,37 +506,48 @@ hr{
     color: #FFFFF7;
     width: fit-content;
 }
-.linkdin-ic1{
+.linkdin-ic-H{
     position: absolute;
-    top: 20vh;
-    left: 20vw;
-    width: 27px;
-    height: 25px;
+    top: 22vh;
+    left: 15vw;
+    width: 30px;
+    height: 30px;
 }
-.insta-ic1{
+.insta-ic-H{
     position: absolute;
-    /* top: 28vh;
-    left: 20vw; */
+    top: 22.8vh;
+    left: 18.0vw;
     width: 27px;
     height: 25px;    
-    top: 43%;
-    left: 20%;
 }
-.mail-ic1{
+.mail-ic-H{
     position: absolute;
-    top: 36vh;
-    left: 20vw;
+    top: 22.8vh;
+    left: 21vw;
     width: 27px;
-    height: 25px; 
+    height: 25px;  
 }
-.footer-nav1{
+
+.footer-nav-H{
     color: white;
     position: absolute;
     left: 60vw;
-    top: 13vh;
+    top: 6vh;
+}
+.linkdin-ic-H:hover{
+    cursor: pointer;
+    background-image: #597ECD;
+}
+.mail-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+.insta-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
 }
 
-.footer-nav1>h3{
+.footer-nav-H>h3{
     font-family: rubik;
     font-style: normal;
     font-weight: bold;
@@ -542,29 +557,33 @@ hr{
     color: #FFFFF7;
 }
 
-.footNav-content1{
+.footNav-content-H{
+    /* margin-left: 45px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.footNav-content1>p{
-    margin: 20px;
+.footNav-content-H>a{
+    margin: 10px;
+    margin-left: 20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 15px;
-
     color: #FFFFF7;
 }
 
-.copyright{
+.copyright-H{
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
 }
 .email{
     background-color: #F7CA02;
@@ -575,6 +594,14 @@ hr{
     background: transparent;
     border-bottom: 1px solid #0F0F0F;
     outline: none;
+  }
+  .footNav-content-H>a{
+    text-decoration: none;
+    color: white;
+      
+  }
+  .footNav-content-H>a:hover{
+      color: #F7CA02;
   }
 
 /* mobile view  */
@@ -644,9 +671,9 @@ hr{
     .body3logo img {
         position: relative;
         left: 10%;
-        height: 22vh;
-        margin-top: 110px;
-
+        height: 20vh;
+        margin-top: 17vh;
+        margin-bottom: 5vh;
     }
     .aboutus-content {
         position: relative;
@@ -655,14 +682,14 @@ hr{
 
     }
     .findbutton1 {
-        position: absolute;
-        width: 40%;
+        position: relative;
+        width: 50%;
         height: 10%;
-        top: 123%;
+        margin-top: 210px;
     }
     .body4{
         position: relative;
-        margin-top: 180px;
+        margin-top: 80px;
 
     }
     .NewspaperArchives{
@@ -671,6 +698,7 @@ hr{
     .NewspaperArchives-content {
         position: relative;
         width: 90%;
+        height: fit-content;
         top: 30%;
     }
     .line{
@@ -718,7 +746,7 @@ hr{
         position: absolute;
         width: 40%;
         height: 8%;
-        top: 150%;
+        top: 760px;
     }
     .vector-18 {
         display:none;
@@ -770,7 +798,7 @@ hr{
     }
     .firstedition {
         position: relative;
-        margin-top: 220px;
+        /* margin-top: 220px; */
     }
     
     .body6{
@@ -808,4 +836,17 @@ hr{
     .number01{
         display: none;
     }
+    .footer-H{
+        position: relative;
+        top: 400px;
+    }
+    .insta-ic-H{
+        top: 29vh;
+        left: 7.5vh;
+    }
+    .mail-ic-H{
+        top: 35vh;
+        left: 7.5vh;
+    }
+
 }
