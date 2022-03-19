@@ -29,7 +29,7 @@ import mailIcon from "../../images/mail.png";
 import mail from "../../images/mail1.png";
 // import logo from "../../images/logo.png";
 import "./Home.css";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import axios from "axios";
 import {useState,useEffect} from 'react';
@@ -37,18 +37,18 @@ import {useState,useEffect} from 'react';
 function Homebody(){
     const [ids,setIds]=useState([]);
     const [art1,setArt1]=useState([])
-    const [art2,setArt2]=useState([])
+    const [art2,setArt2]=useState([]);
+   
     useEffect(()=>{
         const fetpostid=async()=>{
         const res = await axios.get("https://compendium-serverside.herokuapp.com/api/postid");
-        // console.log(res.data[res.data.length-1]);
+        console.log(" res ");
         setIds(res.data);
     }
     fetpostid();
+   
 
     
-    // .postid ['postid']
-    // console.log(ids);
     },[ids,art1,art2]);
 
     useEffect(()=>{
@@ -82,8 +82,8 @@ function Homebody(){
             <img src={sitting} alt="" className="sitting"  />
             <div className="social">
                 <img className="longarrow" src={longarrow}   alt="" />
-                <img className="linked-in" src={linkedin}   alt="" />
-                <img className="instagram" src={instagram}  alt="" />
+                <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="linked-in" src={linkedin}   alt="" /></a>
+                <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="instagram" src={instagram}  alt="" /></a>
                 <img className="mail" src={mail}  alt="" />
             </div>
             <div className="bodyone">
@@ -95,7 +95,7 @@ function Homebody(){
         
         <div className="body2">
             <p className="articles">Articles</p>
-            <button className="findbutton" type="button">Read More</button>
+            <Link to={'/articleslist'}><button className="findbutton" type="button">Read More</button></Link>
             <div className="twoarticles">
                 <div className="article1">
                     <img className="article1-img" src={article1.img}  alt="" />
@@ -118,7 +118,7 @@ function Homebody(){
                 <img src={logo} alt="" />
             </div>
             <p className="aboutus-content">The Compendium (TC) is the News and Publication Society (NPS) of the Institute of Aeronautical Engineering. The Compendium was started in 2019, making it one of the earliest student clubs on campus.</p>
-            <button className="findbutton1" type="button">Read More</button>
+             <Link to={'/aboutus'}>  <button className="findbutton1" type="button">Read More</button></Link> 
         </div>
 
 
@@ -141,7 +141,7 @@ function Homebody(){
         <div className="body5">
             <p className="Spotlight" >Spotlight</p>
             <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
-            <button className="findbutton2" type="button">Read More</button>
+            <Link to={'/gallery'}><button className="findbutton2" type="button">Read More</button></Link> 
             <div className="spotlight-img">
                 <div className="spotlight-img1"><img className="rectangle27" src={rectangle27} alt="" /></div>
                 <div className="spotlight-img2"><img className="rectangle28" src={rectangle28} alt="" /></div>
@@ -168,27 +168,31 @@ function Homebody(){
             </div>
         </div>
 
-        <div className="footer-1">
+        <div className="footer-H">
 
-        <p className="soc-p1">Social</p>
-        <img className="linkdin-ic1" src={linkedIcon} alt="" />
-        <img className="insta-ic1" src={instaIcon}  alt="" />
-        <img className="mail-ic1" src={mailIcon} alt=""  />
-
-        <div className="footer-nav1">
-            <h3>Navigate</h3>
-            <div className="footNav-content1">
-                <p>About us</p>
-                <p>Articles</p>
-                <p>Gallery</p>
-                <p>Spotlight</p>
-                <p>Placements</p>
+            <p className="soc-p-art-H">Social.</p>
+            {/* <Link ><img className="linkdin-ic-H" src={linkedIcon} alt="" /></Link>
+            <Link><img className="insta-ic-H" src={instaIcon} alt=""  /></Link>
+            <Link><img className="mail-ic-H" src={mailIcon} alt=""  /></Link> */}
+            <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="linkdin-ic-H" src={linkedIcon} alt="" /></a>
+            <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="insta-ic-H" src={instaIcon} alt=""  /></a>
+            <Link><img className="mail-ic-H" src={mailIcon} alt=""  /></Link>
+            
+            <div className="footer-nav-H">
+                <h3>Navigate</h3>
+                <div className="footNav-content-H">
+                    <Link to={'/aboutus'}><p>About us</p></Link>
+                    <Link to={'articleslist'}><p>Articles</p></Link>
+                    <Link to={'/gallery'}><p>Gallery</p></Link>
+                    <Link to={'/gallery'}><p>Spotlight</p></Link>
+                    <Link to={'/placements'}><p>Placements</p></Link>
+ 
+                </div>
             </div>
+
+            <p className="copyright-H">&copy;2021 TheCompendium  </p>
         </div>
 
-        <p className="copyright">&copy;2021 TheCompendium  </p>
-
-    </div> 
     </div>);
 
     
@@ -199,7 +203,6 @@ function Home(){
         <>
         <Header />
         <Homebody />
-        {/* <Footer /> */}
         </>
 
     );

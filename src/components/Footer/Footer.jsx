@@ -3,6 +3,8 @@ import React from "react";
 import "./Footer.css";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
+import mailIcon from "../../images/mail.png";
+
 function Footer(){
 
     return(
@@ -12,6 +14,7 @@ function Footer(){
             <p className="soc-p-art">Social.</p>
             <img className="linkdin-ic" src={linkedIcon} alt="" />
             <img className="insta-ic" src={instaIcon} alt=""  />
+            <img className="insta-ic" src={mailIcon} alt=""  />
 
             <div className="footer-nav">
                 <h3>Navigate</h3>
