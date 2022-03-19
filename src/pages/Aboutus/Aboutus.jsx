@@ -67,7 +67,7 @@ function Aboutusbody(){
                 </div>
             </div>
 
-            <div className="footer-H">
+            <div className="footer-A">
 
                 <p className="soc-p-art-H">Social.</p>
                 {/* <Link ><img className="linkdin-ic-H" src={linkedIcon} alt="" /></Link>
