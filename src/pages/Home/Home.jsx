@@ -99,12 +99,12 @@ function Homebody(){
             <div className="twoarticles">
                 <div className="article1">
                     <img className="article1-img" src={article1.img}  alt="" />
-                    <div  className="arrow"><img src={arrow} alt="Un available" /></div>
+                    <div  className="arrow"><Link to={'/'+article1._id}><img src={arrow} alt="Un available" /></Link></div>
                     <h3 className="article1-title">{article1.title}</h3>
                 </div>
                 <div className="article2">
                     <img className="article1-img" src={article2.img}  alt="" />
-                    <div  className="arrow"><img src={arrow} alt="Un available" /></div>
+                    <div  className="arrow"> <Link to={'/'+article2._id}><img src={arrow} alt="Un available" /></Link> </div>
                     <h3 className="article1-title">{article2.title}</h3>
                 </div>
                 
