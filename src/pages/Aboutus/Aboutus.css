@@ -360,66 +360,79 @@
 
 @media screen and (max-width:450px) {
     .about{
+        position: relative;
         top: 6%;
+        width: 50vw;
     }
     .social{
         display: none;
     }
     .logo{
         display: block;
-        height: 150px;
-        width: 150px;
-        top: 15%;
+        height: 20%;
+        width: 40%;
+        position: relative;
+        top: 10%;
     }
     .about-text1{
-        width: 100vw;
+        width: 90vw;
+        position: relative;
         left: 5vw;
-        top: 37%;
+        top: 15%;
         font-size: 25px;
         line-height: 27px;
 
     }
     .about-text2{
-        width: 95vw;
+        width: 90vw;
         left: 5vw;
-        top: 55%;
+        top: 35%;
         line-height: 30px;
 
     }
     .team{
-        left: 30%;
+        position: relative;
+        left: 25%;
         top: 6%;
+        width: 50vw;
     }
     .body-2{
+        position: absolute;
         top: 155%;
     }
 
     .hr2{
-        top: 15%;
-        width: 45vw;
+        position: relative;
+        top: 5%;
+        left: 20%;
+        width: 60vw;
     }
     .Founder{
-        top: 24%;
-        left: 10%;
+        position: relative;
+        top: 12%;
+        left: 15%;
+        width: 70%;
     }
 
     .foundertextarea {
         position: relative;
-        margin-left: 10%;
-        top: 65%;
+        top: 8%;
+        right: 6%;
     }
     .cofoundertextarea {
         position: relative;
-        top: 115%;
-        left: 10%;
+        top: 11%;
+        left: 15%;
     }
     .Cofounder{
-
-        top: 85%;
-        left: 10%;
+        width: 70%;
+        position: relative;
+        top: 12%;
+        left: 15%;
     }
     .body-3{
-        top: 320%;
+        position: absolute;
+        top: 330%;
     }
     .president {
         position: absolute;
