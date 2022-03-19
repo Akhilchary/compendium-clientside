@@ -129,7 +129,8 @@
 .foundertextarea{
     position: relative;
     margin-left: 20%;
-    top: 80%;
+    top: 77%;
+    line-height: 20%;
 }
 .Foundertext{
     font-size: 25px;
@@ -138,10 +139,11 @@
 }
 .cofoundertextarea{
     position: relative;
-    top: 64.5%;
+    top: 68%;
     left: 60%;
     width: 300px;
     height: 100px;
+    line-height: 20%;
 }
 .cofoundertext{
     font-size: 25px;
@@ -150,33 +152,37 @@
 }
 .creativedirectortextarea{
     position: relative;
-    top: 75%;
+    top: 52%;
     left: 10%;
     width: 300px;
     height: 100px;
+    line-height: 20%;
 }
 .CreativeDirectortext{
     color: #FFFFFF;
-    margin-top: 30px;
+    font-size: 25px;
 }
 .presidenttextarea{
     position: relative;
-    top: 45%;
+    top: 60%;
     margin-left: 40%;
+    line-height: 20%;
 }
 .Presidenttext{
     color: #FFFFFF;
-    margin-top: 25px;
+    font-size: 25px;
 }
 .managingdirectortextarea{
     position: relative;
     left: 68%;
-    top: 38%;
+    top: 65%;
     width: 250px;
     height: 100px;
+    line-height: 20%;
 }
 .ManagingDirectortext{
     color: #FFFFFF;
+    font-size: 25px;
 }
 /* css of separate about us pages */
 /* .Managingdirectorbody{
@@ -269,24 +275,19 @@
     top: 20%;
     
 } */
-.footer-2{
-    /* width: 100vw;
-    height: 60vh;*/
-    background: #0E0E0E;
-    position: absolute;
-    top: 317%;
-    /*left: 0%;
-    bottom: 0%; */
+.footer-H{
     width: 100%;
-    height: 65%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 30vw;
+    position: absolute;
+    background: #0E0E0E;
+    top: 330vh;
+
 }
 
-.soc-p1{
-    
+
+.soc-p-art-H{
     position: relative;
-    top: 10vh;
+    top: 6vh;
     left: 15vw;
     font-family: rubik;
     font-style: normal;
@@ -296,29 +297,48 @@
     color: #FFFFF7;
     width: fit-content;
 }
-.linkdin-ic1{
+.linkdin-ic-H{
     position: absolute;
     top: 22vh;
-    left: 16vw;
+    left: 15vw;
     width: 30px;
     height: 30px;
 }
-.insta-ic1{
+.insta-ic-H{
+    position: absolute;
+    top: 22.8vh;
+    left: 18.0vw;
+    width: 27px;
+    height: 25px;    
+}
+.mail-ic-H{
     position: absolute;
     top: 22.8vh;
     left: 21vw;
     width: 27px;
-    height: 25px;    
+    height: 25px;  
 }
 
-.footer-nav1{
+.footer-nav-H{
     color: white;
     position: absolute;
     left: 60vw;
     top: 6vh;
 }
+.linkdin-ic-H:hover{
+    cursor: pointer;
+    background-image: #597ECD;
+}
+.mail-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+.insta-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
 
-.footer-nav1>h3{
+.footer-nav-H>h3{
     font-family: rubik;
     font-style: normal;
     font-weight: bold;
@@ -328,23 +348,24 @@
     color: #FFFFF7;
 }
 
-.footNav-content1{
+.footNav-content-H{
+    /* margin-left: 45px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.footNav-content1>p{
-    margin: 20px;
+.footNav-content-H>a{
+    margin: 10px;
+    margin-left: 20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 15px;
-
     color: #FFFFF7;
 }
 
-.copyright{
+.copyright-H{
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -355,119 +376,155 @@
     top: 60vh;
     left: 10vw;
 }
+.email{
+    background-color: #F7CA02;
+}
+
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0F0F0F;
+    outline: none;
+  }
+  .footNav-content-H>a{
+    text-decoration: none;
+    color: white;
+      
+  }
+  .footNav-content-H>a:hover{
+      color: #F7CA02;
+  }
 
 /* mobile design */
 
 @media screen and (max-width:450px) {
     .about{
-        top: 6%;
+        position: relative;
+        top: 5%;
+        width: 50%;
     }
     .social{
         display: none;
     }
     .logo{
         display: block;
-        height: 150px;
-        width: 150px;
-        top: 15%;
+        height: 20%;
+        width: 40%;
+        position: relative;
+        top: 8%;
     }
     .about-text1{
-        width: 100vw;
+        width: 90vw;
         left: 5vw;
-        top: 37%;
+        position: relative;
+        top: 12%;
         font-size: 25px;
         line-height: 27px;
 
     }
     .about-text2{
-        width: 95vw;
+        width: 90vw;
         left: 5vw;
-        top: 55%;
+        position: relative;
+        top: 30%;
         line-height: 30px;
 
     }
     .team{
-        left: 30%;
-        top: 6%;
+        position: relative;
+        left: 25%;
+        top: 5%;
+        width: 50%;
     }
     .body-2{
-        top: 155%;
+        position: absolute;
+        top: 160%;
     }
 
     .hr2{
-        top: 15%;
-        width: 45vw;
+        position: relative;
+        top: 5%;
+        width: 50vw;
+        left: 25%;
     }
     .Founder{
-        top: 24%;
-        left: 10%;
+        position: relative;
+        top: 12%;
+        left: 15%;
+        width: 260px;
+        height: 300px;
     }
 
     .foundertextarea {
         position: relative;
-        margin-left: 10%;
-        top: 65%;
-    }
-    .cofoundertextarea {
-        position: relative;
-        top: 115%;
-        left: 10%;
+        top: 10%;
+        right:5%;
+        line-height: 20%;
     }
     .Cofounder{
-
-        top: 85%;
-        left: 10%;
+        width: 260px;
+        height: 300px;
+        position: relative;
+        top: 15%;
+        left: 15%;
+    } 
+    .cofoundertextarea {
+        position: relative;
+        top: 16%;
+        left: 15%;
+        line-height: 20%;
     }
     .body-3{
-        top: 320%;
+        position: absolute;
+        top: 310%;
     }
     .president {
-        position: absolute;
-        top: -15%;
-        left: 10%;
+        position: relative;
+        top: 5%;
+        left: 15%;
+        width: 260px;
+        height: 300px;
     }
     .Presidenttext{
-        font-size: 30px;
+        font-size: 25px;
     }
     .presidenttextarea {
         position: relative;
-        top: 15%;
-        margin-left: 10%;
-    }
-    .Creativedirector{
-        left: 10%;
-        top: 50%;
-    }
-    .creativedirectortextarea {
-        position: relative;
-        top: 90%;
-        left: 10%;
-    }
-    .CreativeDirectortext{
-        font-size: 25px;
+        right: 25%;
+        top: 5%;
+        line-height: 20%;
     }
     .Managingdirector{
-        top: 110%;
-        width: 330px;
-        height: 360px;
-        left: 10%;
+        width: 260px;
+        height: 300px;
+        position: relative;
+        top: 12%;
+        left: 15%;
     }
     .managingdirectortextarea {
         position: relative;
-        left: 10%;
-        top: 127%;
+        left: 15%;
+        top: 14%;
         font-size: 25px;
+        line-height: 20%;
     }
-    .Managingdirector{
-        position: absolute;
-        top: 144%;
-        right: 3%;
-        width: 90%;
-    
+    .Creativedirector{
+        width: 260px;
+        height: 300px;
+        position: relative;
+        left: 15%;
+        top: 17%;
     }
-
+    .creativedirectortextarea {
+        position: relative;
+        top: 15%;
+        left: 15%;
+        font-size: 25px;
+        line-height: 20%;
+    }
     .footer-2{
-        top: 480%;
+        position: absolute;
+        top: 500%;
     }
     
     .footer-2>.insta-ic1 {
