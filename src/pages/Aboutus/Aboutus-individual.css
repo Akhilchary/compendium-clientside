@@ -50,7 +50,7 @@
     background-color: #0E0E0E;
 }
 .Cofounderpic{
-    position: absolute;
+    position: relative;
     background-color: #F7CA02;
     top: 20%;
     left: 10%;
@@ -92,7 +92,7 @@
     line-height: 40px;
     color: #FFFFFF;
 }
-.creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription{
+.creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription,.Cofounderdescription{
     position: absolute;
     width: 50%;
     left: 40%;
@@ -112,24 +112,16 @@
     top: 20%;
     
 }
-.footer-3{
-    /* width: 100vw;
-    height: 60vh;*/
-    background: #0E0E0E;
-    position: absolute;
-    top: 100%;
-    /*left: 0%;
-    bottom: 0%; */
+.footer-AI{
     width: 100%;
-    height: 65%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 30vw;
+    position: absolute;
+    background: #0E0E0E;
+    top: 130vh;
 }
-
-.soc-p{
-    
+.soc-p-art-H{
     position: relative;
-    top: 10vh;
+    top: 6vh;
     left: 15vw;
     font-family: rubik;
     font-style: normal;
@@ -139,29 +131,48 @@
     color: #FFFFF7;
     width: fit-content;
 }
-.linkdin-ic{
+.linkdin-ic-H{
     position: absolute;
     top: 22vh;
-    left: 16vw;
+    left: 15vw;
     width: 30px;
     height: 30px;
 }
-.insta-ic{
+.insta-ic-H{
+    position: absolute;
+    top: 22.8vh;
+    left: 18.0vw;
+    width: 27px;
+    height: 25px;    
+}
+.mail-ic-H{
     position: absolute;
     top: 22.8vh;
     left: 21vw;
     width: 27px;
-    height: 25px;    
+    height: 25px;  
 }
 
-.footer-nav{
+.footer-nav-H{
     color: white;
     position: absolute;
     left: 60vw;
     top: 6vh;
 }
+.linkdin-ic-H:hover{
+    cursor: pointer;
+    background-image: #597ECD;
+}
+.mail-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
+.insta-ic-H:hover{
+    cursor: pointer;
+    color: #597ECD;
+}
 
-.footer-nav>h3{
+.footer-nav-H>h3{
     font-family: rubik;
     font-style: normal;
     font-weight: bold;
@@ -171,23 +182,24 @@
     color: #FFFFF7;
 }
 
-.footNav-content{
+.footNav-content-H{
+    /* margin-left: 45px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.footNav-content>p{
-    margin: 20px;
+.footNav-content-H>a{
+    margin: 10px;
+    margin-left: 20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 15px;
-
     color: #FFFFF7;
 }
 
-.copyright{
+.copyright-H{
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -198,6 +210,25 @@
     top: 60vh;
     left: 10vw;
 }
+.email{
+    background-color: #F7CA02;
+}
+
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0F0F0F;
+    outline: none;
+  }
+  .footNav-content-H>a{
+    text-decoration: none;
+    color: white;
+      
+  }
+  .footNav-content-H>a:hover{
+      color: #F7CA02;
+  }
+
 @media screen and (max-width: 450px)  {
     .Founderbody{
         position: absolute;
@@ -211,7 +242,7 @@
         top: 10%;
     }
     .teammembersname{
-        position: absolute;
+        position: relative;
         width: 80%;
         left: 10%;
         top: 30%;
@@ -229,47 +260,17 @@
         top: 36%;
         font-family: Rubik;
     }
-    .footer-3{
-        background: #0E0E0E;
+    .footer-AI{
         position: absolute;
-        top: 190%;
-        width: 100%;
-        height: 65%;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        top: 230%;
     }
-    .soc-p1{
-        position: absolute;
-        top: 20%;
-        left: 20%;
-        font-family: rubik;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 26px;
-        line-height: 30px;
-        color: #FFFFF7;
-        width: fit-content;
+    .insta-ic-H{
+        top: 29vh;
+        left: 7.5vh;
     }
-    .linkdin-ic1{
-        position: absolute;
-        top: 30%;
-        left: 20%;
-        width: 30px;
-        height: 30px;
-    }
-    .insta-ic1{
-        position: absolute;
-        top: 31%;
-        left: 30%;
-        width: 27px;
-        height: 25px;    
-    }
-    
-    .footer-nav1{
-        color: white;
-        position: absolute;
-        left: 60%;
-        top: 20%;
+    .mail-ic-H{
+        top: 35vh;
+        left: 7.5vh;
     }
     .Presidentbody{
         position: absolute;
@@ -284,8 +285,8 @@
         height: 200%;
         background-color: #0E0E0E;
     }
-    .Creativedirectorpic,.Founderpic,.Presidentpic{
-        width: 50%;
+    .Creativedirectorpic,.Founderpic,.Presidentpic,.Cofounderpic{
+        width: 60%;
         height: 19%;
         position: absolute;
         top: 10%;
@@ -304,4 +305,14 @@
         top: 8%;
         left: 10%;
     }
+    .Cofounderbody{
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        background-color: #0E0E0E;
+    }
+   .Cofoundername{
+       color: white;
+
+   }
 }
