@@ -129,7 +129,7 @@
 .foundertextarea{
     position: relative;
     margin-left: 20%;
-    top: 77%;
+    top: 83%;
     line-height: 20%;
 }
 .Foundertext{
@@ -139,7 +139,7 @@
 }
 .cofoundertextarea{
     position: relative;
-    top: 68%;
+    top: 73%;
     left: 60%;
     width: 300px;
     height: 100px;
@@ -152,7 +152,7 @@
 }
 .creativedirectortextarea{
     position: relative;
-    top: 52%;
+    top: 55%;
     left: 10%;
     width: 300px;
     height: 100px;
@@ -164,7 +164,7 @@
 }
 .presidenttextarea{
     position: relative;
-    top: 60%;
+    top: 68%;
     margin-left: 40%;
     line-height: 20%;
 }
@@ -175,7 +175,7 @@
 .managingdirectortextarea{
     position: relative;
     left: 68%;
-    top: 65%;
+    top: 66%;
     width: 250px;
     height: 100px;
     line-height: 20%;
@@ -275,12 +275,12 @@
     top: 20%;
     
 } */
-.footer-H{
+.footer-A{
     width: 100%;
     height: 30vw;
     position: absolute;
     background: #0E0E0E;
-    top: 330vh;
+    top: 340vh;
 
 }
 
@@ -455,7 +455,7 @@
 
     .foundertextarea {
         position: relative;
-        top: 8%;
+        top: 10%;
         right: 6%;
     }
     .Cofounder{
@@ -467,7 +467,7 @@
     } 
     .cofoundertextarea {
         position: relative;
-        top: 11%;
+        top: 13%;
         left: 15%;
     }
     .Cofounder{
@@ -478,7 +478,7 @@
     }
     .body-3{
         position: absolute;
-        top: 330%;
+        top: 300%;
     }
     .president {
         position: relative;
@@ -493,7 +493,7 @@
     .presidenttextarea {
         position: relative;
         right: 25%;
-        top: 5%;
+        top: 7%;
         line-height: 20%;
     }
     .Managingdirector{
@@ -519,21 +519,28 @@
     }
     .creativedirectortextarea {
         position: relative;
-        top: 15%;
+        top: 19%;
         left: 15%;
         font-size: 25px;
         line-height: 20%;
     }
-    .footer-2{
-        position: absolute;
-        top: 500%;
-    }
-    
     .footer-2>.insta-ic1 {
         position: absolute;
         top: 44%;
         left: 20%;
         width: 27px;
         height: 25px;
+    }
+    .footer-A{
+        position: absolute;
+        top: 500%;
+    }
+    .insta-ic-H{
+        top: 29vh;
+        left: 7.5vh;
+    }
+    .mail-ic-H{
+        top: 35vh;
+        left: 7.5vh;
     }
 }
