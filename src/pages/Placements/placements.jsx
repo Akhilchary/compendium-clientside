@@ -7,6 +7,7 @@ import Accenture from "../../images/download (4) 1.png";
 import Cognizant from "../../images/Cognizant-Logo 1.png";
 import Infosys from "../../images/blue-infosys-bpm-mangalore-information-technology-consulting 1.png";
 import TechMahindra from "../../images/Rectangle 68.png";
+// import Footer from "../../components/Footer/Footer";
 function Placementsbody(){
     return(
         <div class="placementsbody">
@@ -60,6 +61,7 @@ function Placements(){
         <div>
             <Header />
             <Placementsbody />
+            {/* <Footer /> */}
         </div>
     );
 }
