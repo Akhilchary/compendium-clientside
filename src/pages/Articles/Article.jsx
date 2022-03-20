@@ -3,7 +3,7 @@ import Header from "../../components/Navbar/Navbar";
 import {useState,useEffect} from "react";
 import axios from "axios";
 import {useLocation} from "react-router";
-// import "./Articles.css";
+import "./Articles.css";
 // import linkedIcon from "../../images/linkdin-icon.svg";
 // import instaIcon from "../../images/insta-icon.svg";
 // import mailIcon from "../../images/mail.png";
