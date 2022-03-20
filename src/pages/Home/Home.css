@@ -299,7 +299,7 @@
 .findbutton2{
     position: absolute;
     width: 12%;
-    height: 8%;
+    height: 10%;
     top: 55%;
     left: 10%;
     cursor: pointer;
@@ -743,8 +743,8 @@ hr{
     }
     .findbutton2 {
         position: absolute;
-        width: 40%;
-        height: 8%;
+        width: 50%;
+        height: 10%;
         top: 760px;
     }
     .vector-18 {
