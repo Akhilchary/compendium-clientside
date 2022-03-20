@@ -46,7 +46,7 @@
   }
   .next{
     position: relative;
-    
+    top: 10%;
   }
   .footer-G{
     width: 100%;
@@ -92,13 +92,15 @@
   pointer-events: none;
 }
 .prev {
-  top: 88%;
+  position: relative;
+  top: 5%;
   left: 40%;
   transform: translateY(-60%);
 }
 .next {
-  top: 88%;
-  right: 40%;
+  position: relative;
+  top: 10.2%;
+  left: 56%;
   transform: translateY(-60%);
 }
 
@@ -126,5 +128,5 @@
   height: 30vw;
   position: absolute;
   background: #0E0E0E;
-  top: 160vh;
+  top: 170vh;
 }
