@@ -13,7 +13,7 @@ function Managingdirectorbody(){
         <div>
         <div class="Managingdirectorbody">
             <Link to="/aboutus"><img class="Cross" src={Cross} alt="" /></Link>
-            <img class="managingdirectorpic" src={Managingdirectorpic} alt="" />
+            <img class="Managingdirectorpic" src={Managingdirectorpic} alt="" />
             <p class="teammembersname">Jacob Alex</p>
             <p class="managingdirectorname">Managing Director</p>
             <p className="managingdirectordescription">Jacob Alex, a third year computer science engineering student who doesn't lack in compassion or spontaneity. He is tenacious, and wise. While spontaneity is a strong suit, he is also known to be thoughtful and calm. He's a good leader, as he makes sure that the people around him take their work seriously, and don't forget to have a life while they do it.<br />His strengths lie in identifying problems and the right people to solve them.</p>
