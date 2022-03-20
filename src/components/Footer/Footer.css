@@ -23,16 +23,23 @@
 .linkdin-ic{
     position: absolute;
     top: 22vh;
-    left: 16vw;
+    left: 15vw;
     width: 30px;
     height: 30px;
 }
 .insta-ic{
     position: absolute;
-    top: 22.8vh;
-    left: 21vw;
+    top: 23vh;
+    left: 18vw;
     width: 27px;
     height: 25px;    
+}
+.mail-ic{
+    position: absolute;
+    top: 22.8vh;
+    left: 20.7vw;
+    width: 27px;
+    height: 25px; 
 }
 
 .footer-nav{
@@ -57,7 +64,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.footNav-content>p{
+.footNav-content>a>p{
+    
     margin: 20px;
     font-family: Rubik;
     font-style: normal;
@@ -66,7 +74,13 @@
     line-height: 15px;
     color: #FFFFF7;
 }
+.footNav-content>a{
+    text-decoration: none;
+}
 
+.footNav-content>a>p:hover{
+    color: #F7CA02;
+}
 .copyright{
     font-family: Rubik;
     font-style: normal;
@@ -77,4 +91,20 @@
     position: absolute;
     top: 60vh;
     left: 10vw;
+}
+
+@media screen and (max-width:600px){
+    .insta-ic{
+        top: 180px;
+        left: 60px;
+    }
+    .copyright{
+        top: 345px;
+    }
+    .mail-ic {
+        top: 235px;
+        left: 60px;
+    }
+
+
 }

@@ -3,9 +3,12 @@ import Header from "../../components/Navbar/Navbar";
 import {useState,useEffect} from "react";
 import axios from "axios";
 import {useLocation} from "react-router";
-import "./Articles.css";
-import linkedIcon from "../../images/linkdin-icon.svg";
-import instaIcon from "../../images/insta-icon.svg";
+// import "./Articles.css";
+// import linkedIcon from "../../images/linkdin-icon.svg";
+// import instaIcon from "../../images/insta-icon.svg";
+// import mailIcon from "../../images/mail.png";
+// import {Link } from 'react-router-dom';
+import Footer from "../../components/Footer/Footer";
 
 
 function Article(){
@@ -61,26 +64,27 @@ function Article(){
         <div>
 
         </div>
-
-        <div className="article-footer-ar"  >
+        <Footer />
+        {/* <div className="article-footer-ar"  >
             
             <p className="soc-p-ar">Social</p>
-            <img className="linkdin-ic-ar" src={linkedIcon} alt="" />
-            <img className="insta-ic-ar" src={instaIcon} alt=""  />
+            <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="linkdin-ic" src={linkedIcon} alt="" /></a>
+            <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="insta-ic" src={instaIcon} alt=""  /></a>
+            <img className="mail-ic" src={mailIcon} alt=""  />
 
             <div className="footer-nav-ar">
                 <h3>Navigate</h3>
                 <div className="footNav-content-ar">
-                    <p>About us</p>
-                    <p>Articles</p>
-                    <p>Gallery</p>
-                    <p>Spotlight</p>
-                    <p>Placements</p>
+                    <Link to={'/aboutus'}><p>About us</p></Link>
+                    <Link to={'articleslist'}><p>Articles</p></Link>
+                    <Link to={'/gallery'}><p>Gallery</p></Link>
+                    <Link to={'/gallery'}><p>Spotlight</p></Link>
+                    <Link to={'/placements'}><p>Placements</p></Link>
                 </div>
             </div>
 
             <p className="copyright-ar">&copy;2021 TheCompendium  </p>
-        </div>
+        </div> */}
         </>
     );
 }
