@@ -608,7 +608,7 @@ hr{
 @media screen and (max-width:600px){
     .body1{
         height: fit-content;
-
+        background: white;
     }
 
     .sitting{
@@ -684,7 +684,7 @@ hr{
         position: relative;
         width: 50%;
         height: 10%;
-        margin-top: 210px;
+        margin-top: 110px;
     }
     .body4{
         position: relative;
