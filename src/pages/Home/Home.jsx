@@ -140,7 +140,7 @@ function Homebody(){
 
         <div className="body5">
             <p className="Spotlight" >Spotlight</p>
-            <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
+            {/* <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p> */}
             <Link to={'/gallery'}><button className="findbutton2" type="button">Read More</button></Link> 
             <div className="spotlight-img">
                 <div className="spotlight-img1"><img className="rectangle27" src={rectangle27} alt="" /></div>
