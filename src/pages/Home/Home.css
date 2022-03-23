@@ -94,7 +94,7 @@
 .findbutton{
     position: absolute;
     width: 12%;
-    height: 8%;
+    height: 7%;
     top: 79%;
     left: 10%;
     cursor: pointer;
@@ -189,7 +189,7 @@
 .findbutton1{
     position: absolute;
     width: 12%;
-    height: 10%;
+    height: 8.4%;
     top: 55%;
     left: 10%;
     cursor: pointer;
@@ -299,7 +299,7 @@
 .findbutton2{
     position: absolute;
     width: 12%;
-    height: 10%;
+    height: 10.5%;
     top: 55%;
     left: 10%;
     cursor: pointer;
@@ -658,14 +658,13 @@ hr{
     .findbutton {
         position: absolute;
         width: 40%;
-        height: 10%;
+        height: 13%;
         top: 110%;
         left: 7%;
     }
     .body3 {
         position: relative;
-        margin-top: 100px;
-
+        margin-top: 120px;
     }
     .body3logo img {
         position: relative;
@@ -682,8 +681,8 @@ hr{
     }
     .findbutton1 {
         position: relative;
-        width: 50%;
-        height: 10%;
+        width: 40%;
+        height: 55px;
         margin-top: 110px;
     }
     .body4{
@@ -743,8 +742,8 @@ hr{
     }
     .findbutton2 {
         position: absolute;
-        width: 50%;
-        height: 10%;
+        width: 40%;
+        height: 13%;
         top: 760px;
     }
     .vector-18 {
