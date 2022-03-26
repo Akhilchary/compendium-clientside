@@ -95,7 +95,7 @@
     position: absolute;
     width: 12%;
     height: 7%;
-    top: 79%;
+    top: 100%;
     left: 10%;
     cursor: pointer;
     background: #F7CA02;
@@ -115,7 +115,7 @@
     width: 410px;
     height: 510px;
     top:28%;
-    left: 35%;
+    left: 10%;
     background:#597ECD;
 }
 .article1-img{
@@ -130,10 +130,10 @@
 }
 .article2{
     position: absolute;
-    width: 370px;
+    width: 410px;
     height: 510px;
     top: 28%;
-    left: 65%;
+    left: 45%;
     background: #C85CFA;
 }
 .arrow{
@@ -148,16 +148,16 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 220%;
+    top: 230%;
     left: 0%;
     background-color: #0E0E0E;
     color: white;
 }
 .body3logo img{ 
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 65%;
-    width: 22vh;
+    width: 30vh;
     height: 47vh;
 }
 .aboutus{
