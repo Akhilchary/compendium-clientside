@@ -94,16 +94,20 @@
 }
 
 @media screen and (max-width:600px){
+    .linkdin-ic{
+        top: 115px;
+        left: 20vw;
+    }
     .insta-ic{
         top: 180px;
-        left: 60px;
+        left: 20vw;
     }
     .copyright{
         top: 345px;
     }
     .mail-ic {
         top: 235px;
-        left: 60px;
+        left: 20vw;
     }
 
 
