@@ -176,7 +176,7 @@ function Homebody(){
             <Link><img className="mail-ic-H" src={mailIcon} alt=""  /></Link> */}
             <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="linkdin-ic-H" src={linkedIcon} alt="" /></a>
             <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="insta-ic-H" src={instaIcon} alt=""  /></a>
-            <Link><img className="mail-ic-H" src={mailIcon} alt=""  /></Link>
+            <a href="mailto:john@example.com" ><img className="mail-ic-H" src={mailIcon} alt=""  /></a>
             
             <div className="footer-nav-H">
                 <h3>Navigate</h3>
