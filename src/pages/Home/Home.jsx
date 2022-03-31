@@ -28,6 +28,7 @@ import instagram from "../../images/insta-icon-1.png";
 import mailIcon from "../../images/mail.png";
 import mail from "../../images/mail1.png";
 // import logo from "../../images/logo.png";
+import newspaper from "../Home/newpaper/newspaper.pdf";
 import "./Home.css";
 import { Link } from 'react-router-dom';
 
@@ -84,7 +85,7 @@ function Homebody(){
                 <img className="longarrow" src={longarrow}   alt="" />
                 <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="linked-in" src={linkedin}   alt="" /></a>
                 <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="instagram" src={instagram}  alt="" /></a>
-                <img className="mail" src={mail}  alt="" />
+                <a  href="mailto:iarethecompendium@gmail.com" > <img className="mail" src={mail}  alt="" /></a>
             </div>
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
@@ -133,8 +134,8 @@ function Homebody(){
             <img className="ellipse1" src={ellipse} alt="" />
             <img className="vector" src={vector23} alt="" />
             <p className="firstedition">First Edition</p>
-            <img className="eye" src={eye} alt="" />
-            <img className="download" src={download} alt="" />
+            <a href={newspaper} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
+            <Link download={newspaper} target="__blank"> <img className="download" src={download} alt="" /></Link>
         </div>
 
 
