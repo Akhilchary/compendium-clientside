@@ -23,9 +23,9 @@ function Aboutusbody(){
             <div class="body-1">
                 <div className="social">
                     <img className="longarrow" src={longarrow}   alt="" />
-                    <img className="linked-in" src={linkedin}   alt="" />
-                    <img className="instagram" src={instagram}  alt="" />
-                    <img className="mail" src={mail}  alt="" />
+                    <a href="https://www.linkedin.com/in/the-compendium-iare-987b35212/" target='_blank' rel='noreferrer'><img className="linked-in" src={linkedin}   alt="" /></a>
+                    <a href="https://www.instagram.com/thecompendium.iare/" target='_blank' rel='noreferrer'><img className="instagram" src={instagram}  alt="" /></a>
+                    <a  href="mailto:iarethecompendium@gmail.com" > <img className="mail" src={mail}  alt="" /></a>
                 </div>
                 <h1 class="about">About</h1>
                 <img class="logo" src={Logo} alt="" />
