@@ -35,7 +35,7 @@ function Founderbody(){
                         <Link to={'articleslist'}><p>Articles</p></Link>
                         <Link to={'/gallery'}><p>Gallery</p></Link>
                         <Link to={'/gallery'}><p>Spotlight</p></Link>
-                        <Link to={'/placements'}><p>Placements</p></Link>
+                        <Link to={'/archives'}><p>Archives</p></Link>
     
                     </div>
                 </div>
