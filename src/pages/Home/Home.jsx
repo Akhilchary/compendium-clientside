@@ -10,8 +10,8 @@ import ellipse from "../../images/Ellipse 8.png"
 import arrow from "../../images/arrow.svg";
 // import instagram from "../../images/insta-icon.svg";
 // import linkedin from "../../images/linkdin-icon.svg";
-import eye from "../../images/eye.png";
-import download from "../../images/download.png";
+// import eye from "../../images/eye.png";
+// import download from "../../images/download.png";
 import logo from "../../images/Logo (1) 2.svg";
 import subscribe from "../../images/Group 7.svg";
 import longarrow from "../../images/longarrow.png";
