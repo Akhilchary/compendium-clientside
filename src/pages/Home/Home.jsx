@@ -130,21 +130,22 @@ function Homebody(){
         <div className="body4">
             <p className="NewspaperArchives" >Newspaper Archives</p>
             <p className="NewspaperArchives-content">Our organization is run by IARE undergraduates. Up to _ students a year are involved in The Compendium, mastering skills such as reporting, journalism, writing, photography, digital production, videography, editing, graphic design and social media management while also learning effective communication and how to manage teams and their own schedules.</p>
-            <h1 className="number01">01</h1>
+            {/* <h1 className="number01">01</h1> */}
             <img className="line" src={line} alt="" />
             <img className="circle1" src={circle} alt="" />
             <img className="circle2" src={circle} alt="" />
             <img className="circle3" src={circle} alt="" />
             <img className="ellipse1" src={ellipse} alt="" />
-            <p className="firstedition">First Edition</p>
-            <a href={issue1} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
-            <Link download={issue1} target="__blank"> <img className="download" src={download} alt="" /></Link>
+            <p className="newsedition">Newspaper Edition</p>
+            {/* <a href={issue1} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
+            <Link download={issue1} target="__blank"> <img className="download" src={download} alt="" /></Link> */}
             <div class="dropdown">
-                <a class="dropbtn"><img className="droparrow" src={droparrow} alt="" /></a>
+                <Link class="dropbtn"><img className="droparrow" src={droparrow} alt="" /></Link>
                 <div class="dropdown-content">
-                    <Link download={issue2} target="__blank">Issue 2</Link>
-                    <Link download={issue3} target="__blank">Issue 3</Link>
-                    <Link download={issue4} target="__blank">Issue 4</Link>
+                    <a href={issue1} target="__blank" >Issue 1</a>
+                    <a href={issue2} target="__blank" >Issue 2</a>
+                    <a href={issue3} target="__blank" >Issue 3</a>
+                    <a href={issue4} target="__blank" >Issue 4</a>
                 </div>
             </div>
         </div>
@@ -197,7 +198,7 @@ function Homebody(){
                     <Link to={'articleslist'}><p>Articles</p></Link>
                     <Link to={'/gallery'}><p>Gallery</p></Link>
                     <Link to={'/gallery'}><p>Spotlight</p></Link>
-                    <Link to={'/placements'}><p>Placements</p></Link>
+                    <Link to={'/archives'}><p>Archives</p></Link>
  
                 </div>
             </div>
