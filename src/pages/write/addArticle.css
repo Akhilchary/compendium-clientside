@@ -68,3 +68,7 @@ input{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.del-article>button{
+    margin-bottom: 100px;
+}

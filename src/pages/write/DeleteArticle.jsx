@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import axios from 'axios';
 // import { render } from '@testing-library/react';
-    
+import "./addArticle.css"
 
 const DeleteArticle = () => {
 
@@ -36,7 +36,7 @@ const DeleteArticle = () => {
                 <div className='del-article'>
                     <p style={{color:"white"}} >{ar.posttitle}</p>
                 </div>
-                <button onClick={()=>delPost(ar.postid)}>delete</button>
+                <button style={{marginBottom:"30px"}} onClick={()=>delPost(ar.postid)}>delete</button>
             </div>
         ))
         }
