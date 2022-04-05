@@ -1,5 +1,6 @@
 
 
+
 .longarrow{
     position: absolute;
     top: 32%;
@@ -461,6 +462,7 @@ hr{
 }
 .droparrow{
     width: 30px;
+    cursor: pointer;
 }
 
   .dropdown {
