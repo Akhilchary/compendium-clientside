@@ -31,20 +31,20 @@ body{
 .nav-logo {
   color: black;
   align-items: center;
-  margin-left: 4rem;
+  margin-left: 6rem;
   margin-bottom: 1rem;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   flex-grow: 1;
   font-weight: 400;
   font-family: CanterBury;
 }
 
 .nav-logo-img>img{
-  width: 70px;
+  width: 38px;
   position: relative;
-  left: 20px;
+  left: 90px;
   bottom: 8px;
 
 }
