@@ -1,3 +1,9 @@
+@font-face {
+  font-family: CanterBury;
+  src: url(../Navbar/fonts/Canterbury.ttf);
+}
+
+
 body{
   text-decoration: none;
 }
@@ -32,9 +38,16 @@ body{
   font-size: 2rem;
   flex-grow: 1;
   font-weight: 400;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: CanterBury;
 }
 
+.nav-logo-img>img{
+  width: 70px;
+  position: relative;
+  left: 20px;
+  bottom: 8px;
+
+}
 .nav-menu {
   display: flex;
   list-style: none;
@@ -87,6 +100,9 @@ body{
 }
 
 @media screen and (max-width: 450px) {
+  .nav-logo-img{
+    display: none;
+  }
   .nav-menu {
     display: flex;
     flex-direction: column;

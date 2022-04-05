@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../images/Logo (1) 2.svg";
 import "./Navbar.css";
 
 function NavBar() {
@@ -10,10 +11,11 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
+          <div className="nav-logo-img"><img src={logo} alt="" /></div>
           <NavLink exact to="/" className="nav-logo">
             The Compendium
           </NavLink>
-
+         
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
