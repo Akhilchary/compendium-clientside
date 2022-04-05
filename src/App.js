@@ -5,7 +5,7 @@ import {
   Route
 }from "react-router-dom";
 import Aboutus from "./pages/Aboutus/Aboutus";
-import Placements from "./pages/Placements/placements";
+import Archives from "./pages/Archives/Archives";
 import Slider from "./pages/Gallery/Slider";
 import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
@@ -36,8 +36,8 @@ function App(){
              <Aboutus />
             </Route>
 
-            <Route path='/placements'>
-             <Placements />
+            <Route path='/archives'>
+             <Archives />
             </Route>
 
             <Route path='/President'>
