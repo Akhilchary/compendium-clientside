@@ -140,7 +140,7 @@ function Homebody(){
             <a href={issue1} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
             <Link download={issue1} target="__blank"> <img className="download" src={download} alt="" /></Link>
             <div class="dropdown">
-                <a class="dropbtn"><img className="droparrow" src={droparrow} alt="" /></a>
+                <img className="droparrow" src={droparrow} alt="" />
                 <div class="dropdown-content">
                     <Link download={issue2} target="__blank">Issue 2</Link>
                     <Link download={issue3} target="__blank">Issue 3</Link>
