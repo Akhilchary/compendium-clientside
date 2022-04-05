@@ -311,7 +311,7 @@
 .Subscribe{
     position: absolute;
     color: white;
-    top: 35%;
+    top: 15%;
     left: 10%;
     font-family: Rubik;
     font-style: normal;
@@ -321,7 +321,7 @@
 }
 .subscribeimage{
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 10%;
     height: 180px;
 }
