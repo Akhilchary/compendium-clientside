@@ -28,7 +28,11 @@ import instagram from "../../images/insta-icon-1.png";
 import mailIcon from "../../images/mail.png";
 import mail from "../../images/mail1.png";
 // import logo from "../../images/logo.png";
-import newspaper from "../Home/newpaper/newspaper.pdf";
+import issue1 from "../Home/newpaper/issue1.pdf";
+import issue2 from "../Home/newpaper/issue2.pdf";
+import issue3 from "../Home/newpaper/issue3.pdf";
+import issue4 from "../Home/newpaper/issue4.pdf";
+import droparrow from "../../images/droparrow.png"
 import "./Home.css";
 import { Link } from 'react-router-dom';
 
@@ -132,10 +136,17 @@ function Homebody(){
             <img className="circle2" src={circle} alt="" />
             <img className="circle3" src={circle} alt="" />
             <img className="ellipse1" src={ellipse} alt="" />
-            <img className="vector" src={vector23} alt="" />
             <p className="firstedition">First Edition</p>
-            <a href={newspaper} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
-            <Link download={newspaper} target="__blank"> <img className="download" src={download} alt="" /></Link>
+            <a href={issue1} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
+            <Link download={issue1} target="__blank"> <img className="download" src={download} alt="" /></Link>
+            <div class="dropdown">
+                <a class="dropbtn"><img className="droparrow" src={droparrow} alt="" /></a>
+                <div class="dropdown-content">
+                    <Link download={issue2} target="__blank">Issue 2</Link>
+                    <Link download={issue3} target="__blank">Issue 3</Link>
+                    <Link download={issue4} target="__blank">Issue 4</Link>
+                </div>
+            </div>
         </div>
 
 
