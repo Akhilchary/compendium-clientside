@@ -43,17 +43,21 @@ function Homebody(){
     const [ids,setIds]=useState([]);
     const [art1,setArt1]=useState([])
     const [art2,setArt2]=useState([]);
-   
-    useEffect(()=>{
-        const fetpostid=async()=>{
-        const res = await axios.get("https://compendium-serverside.herokuapp.com/api/postid");
-        console.log(" res ");
-        setIds(res.data);
-    }
-    fetpostid();
-   
-
     
+    useEffect(()=>{
+        let res;
+
+        const fetpostid=async()=>{
+          
+        res = await axios.get("https://compendium-serverside.herokuapp.com/api/postid");
+        console.log(" res "); 
+        setIds(res.data);
+        
+        }
+        if(ids.length===0){
+            fetpostid();
+        }
+
     },[ids,art1,art2]);
 
     useEffect(()=>{

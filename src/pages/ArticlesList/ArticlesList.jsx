@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 
 const ArticlesList =({articles}) => {
-    console.log("length ",(articles));
+    // console.log("length ",(articles));
     return (
         <>
             {articles.map((article,index)=> (

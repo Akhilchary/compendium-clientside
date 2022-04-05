@@ -11,7 +11,7 @@ const Login = () => {
     const [pwd,setPwd]=useState("");
 
     const handleSubmit=async(e)=>{
-        console.log(username,pwd,"username pwd");
+        // console.log(username,pwd,"username pwd");
         const logtest=async()=>{
             const res=await axios.post("https://compendium-serverside.herokuapp.com/api/user/login",{
                 "username":username,

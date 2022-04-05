@@ -13,21 +13,21 @@ const ArticleBlock = () => {
     // const allPosts=JSON.parse(localStorage.getItem("allposts"));
     // setPosts(allPosts);
     useEffect(()=>{
+
         const fetchArts= async ()=>{
             const res =  await axios.get("https://compendium-serverside.herokuapp.com/api/posts");
-            // localStorage.removeItem("allposts");
-            // localStorage.setItem("allposts",JSON.stringify(res.data));
-            // const allPosts=JSON.parse(localStorage.getItem("allposts"));
+            console.log(" fet ");
             setPosts(res.data.reverse());
-
-            // console.log(allPosts," all posts ");
-            // res.data
-            // console.log(res.data," resdata");
         }
         
+        if(posts.length===0){
+            fetchArts();
+        }
         
-    fetchArts();
-    },[])
+
+
+    },[posts])
+
     return (
         <>
         <Topbar />
