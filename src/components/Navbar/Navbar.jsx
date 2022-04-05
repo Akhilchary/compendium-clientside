@@ -64,12 +64,12 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/placements"
+                to="/archives"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Placements
+                Archives
               </NavLink>
             </li>
           </ul>
