@@ -79,28 +79,38 @@
     top: 30%;
     left: 20%;
     background-color: #F7CA02;
+    width:280px;
+    height: 330px;
 }
 .Cofounder{
     position: absolute;
     top: 30%;
     left: 60%;
     background-color: #F7CA02;
+    width:280px;
+    height: 330px;
 }
 .Creativedirector{
     position: absolute;
     left: 10%;
     top: 25%;
+    width:280px;
+    height: 330px;
 }
 .president{
     position: absolute;
     top: 10%;
     left: 40%;
+    width:280px;
+    height: 330px;
 }
 .Managingdirector{
     position: absolute;
     top: 25%;
     right: 12%;
     width: 20%;
+    width:280px;
+    height: 330px;
 }
 .body-3{
     position: absolute;
@@ -127,9 +137,9 @@
     line-height: 40px;
 }
 .foundertextarea{
-    position: relative;
+    position: absolute;
     margin-left: 20%;
-    top: 77%;
+    top: 79%;
     line-height: 20%;
 }
 .Foundertext{
@@ -139,7 +149,7 @@
 }
 .cofoundertextarea{
     position: relative;
-    top: 68%;
+    top: 82%;
     left: 60%;
     width: 300px;
     height: 100px;
@@ -164,9 +174,10 @@
 }
 .presidenttextarea{
     position: relative;
-    top: 61%;
+    top: 63%;
     margin-left: 40%;
     line-height: 20%;
+    
 }
 .Presidenttext{
     color: #FFFFFF;
@@ -450,7 +461,8 @@
         position: relative;
         top: 12%;
         left: 15%;
-        width: 70%;
+        width: 260px;
+        height: 300px;
     }
 
     .foundertextarea {
