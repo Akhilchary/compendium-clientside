@@ -20,9 +20,9 @@ const ArticleBlock = () => {
             setPosts(res.data.reverse());
         }
         
-        if(posts.length===0){
+        // if(posts.length===0){
             fetchArts();
-        }
+        // }
         
 
 

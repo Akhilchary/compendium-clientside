@@ -37,12 +37,12 @@ function Aboutusbody(){
                 <p className="team">The Team</p>
                 <hr  class="hr2"/>
                 {/* <img className="lines" src={Lines} alt="" /> */}
-                <Link to="/founder"><img className="Founder" src={Founder} alt="" /></Link>
+                <img className="Founder" src={Founder} alt="" />
                 <div className="foundertextarea">
                     <p className="Foundertext">Founder</p>
                     <p className="name">Anusha Vajha</p>
                 </div>
-                <Link to="/cofounder"><img className="Cofounder" src={cofounder} alt="" /></Link>
+                <img className="Cofounder" src={cofounder} alt="" />
                 <div className="cofoundertextarea">
                     <p className="cofoundertext">Co-founder</p>
                     <p className="name">Vennela Manmohan</p>
