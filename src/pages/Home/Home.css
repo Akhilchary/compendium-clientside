@@ -661,6 +661,7 @@ hr{
         position: relative;
         top: 7%;
         left: 7%;
+        width: 50%;
     }
     .article1 {
         position: relative;
@@ -698,7 +699,7 @@ hr{
         position: relative;
         width: 40%;
         height: 55px;
-        margin-top: 110px;
+        margin-top: 130px;
     }
     .body4{
         position: relative;
@@ -707,6 +708,7 @@ hr{
     }
     .NewspaperArchives{
         position: relative;
+        width: 70%;
     }
     .NewspaperArchives-content {
         position: relative;
@@ -729,18 +731,28 @@ hr{
         top: 69%;
         left: 63%;
     }
-
-    .eye {
-        top: 170%;
-        
+    .newsedition{
+        position: relative;
     }
-    .download{
-        top: 169%;
+    .dropdown {
+        position: absolute;
+        top: 95%;
+        left: 70%;
+        display: inline-block;
+        text-align: center;
     }
-    .eye{
-        margin-left: -50px;
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: -70px;
     }
-
+    .dropdown-content a:hover {
+        background-color: white;
+        border-radius: 30px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
     .body5{
         position: relative;
         margin-top: 65px;
