@@ -165,3 +165,20 @@
     position: absolute;
     top: 200%;
 }
+@media screen and (max-width:600px) {
+    .Archives{
+        position: absolute;
+        width: 100%;
+    }
+    .Archiveshead{
+        position: relative;
+        top: 3%;
+        left: 10%;
+        width: 80vw;
+    }
+    .Archives-content{
+        position: relative;
+        left: 10%;
+        width: 90%;
+    }
+}
