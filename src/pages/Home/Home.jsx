@@ -140,7 +140,7 @@ function Homebody(){
             <img className="circle2" src={circle} alt="" />
             <img className="circle3" src={circle} alt="" />
             <img className="ellipse1" src={ellipse} alt="" />
-            <p className="newsedition">Newspaper Edition</p>
+            <p className="newsedition">Newspaper Editions</p>
             {/* <a href={issue1} target="__blank" > <img className="eye"  src={eye} alt="" /></a>
             <Link download={issue1} target="__blank"> <img className="download" src={download} alt="" /></Link> */}
             <div class="dropdown">
