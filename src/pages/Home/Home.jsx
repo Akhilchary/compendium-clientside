@@ -116,6 +116,11 @@ function Homebody(){
                     <div  className="arrow"> <Link to={'/'+article2._id}><img src={arrow} alt="Un available" /></Link> </div>
                     <h3 className="article1-title">{article2.title}</h3>
                 </div>
+                <div className="article3">
+                    <img className="article1-img" src={article2.img}  alt="" />
+                    <div  className="arrow"> <Link to={'/'+article2._id}><img src={arrow} alt="Un available" /></Link> </div>
+                    <h3 className="article1-title">{article2.title}</h3>
+                </div>
                 
             </div>
         </div>
@@ -156,7 +161,7 @@ function Homebody(){
 
 
         <div className="body5">
-            <p className="Spotlight" >Spotlight</p>
+            <p className="Spotlight" >Team</p>
             {/* <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p> */}
             <Link to={'/gallery'}><button className="findbutton2" type="button">Read More</button></Link> 
             <div className="spotlight-img">
